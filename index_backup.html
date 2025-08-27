@@ -1,0 +1,1036 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Obras de Arte</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body class="bg-gray-100">
+
+    <!-- Encabezado fijo -->
+    <header class="fixed-header">
+        <div class="max-w-7xl mx-auto">
+            <div class="header-content">
+                <!-- Título del catálogo -->
+                <div class="catalog-title">
+                    Catálogo
+                </div>
+                    <div class="flex items-center space-x-2">
+                        <div class="w-12 h-12 bg-yellow-400 rounded-lg flex items-center justify-center text-white text-2xl font-bold">
+                            <span>�</span>
+                        </div>
+                        <div class="flex flex-col text-sm">
+                            <span class="font-bold" style="color: #222222;">Industrias</span>
+                            <span class="font-bold" style="color: #222222;">Ariova</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Lado derecho: Pestañas de sección -->
+                <div class="section-tabs">
+                    <button class="section-tab cuadros active" data-section="cuadros">
+                        Cuadros
+                    </button>
+                    <button class="section-tab varios" data-section="varios">
+                        Artículos Varios
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="max-w-7xl mx-auto bg-white shadow-lg p-6 md:p-10">
+
+        <!-- Sección de Cuadros -->
+        <section id="cuadros-section">
+            <!-- Descripción de Cuadros -->
+            <div class="max-w-4xl mb-12">
+                <h2 class="text-2xl font-bold text-gray-800 mb-4">Colección de Cuadros</h2>
+                <p class="text-gray-600 leading-relaxed text-sm">
+                    Descubre nuestra exclusiva colección de arte. A continuación, encontrarás una descripción detallada de cada obra, incluyendo su autor, técnica, medidas y precio.
+                </p>
+                <ul class="list-disc pl-5 text-gray-600 text-sm">
+                    <li>Todas las piezas son únicas y tienen una historia que contar.</li>
+                    <li>Todas las medidas incluyen el marco.</li>
+                    <li>Todos los enmarcados son profesionales.</li>
+                </ul>
+            </div>
+
+            <!-- Filtros para Cuadros -->
+            <div id="filters" class="mb-6 bg-white border border-gray-200 rounded-lg p-4">
+                <div class="flex flex-col md:flex-row gap-4 items-start md:items-end">
+                    <div class="flex-1">
+                        <label for="filterAutor" class="block text-sm font-medium text-gray-700 mb-1">Autor</label>
+                        <select id="filterAutor" class="w-full border-gray-300 rounded-md shadow-sm focus:ring-yellow-400 focus:border-yellow-400">
+                            <option value="">Todos</option>
+                        </select>
+                    </div>
+                    <div class="flex-1">
+                        <label for="filterTecnica" class="block text-sm font-medium text-gray-700 mb-1">Técnica</label>
+                        <select id="filterTecnica" class="w-full border-gray-300 rounded-md shadow-sm focus:ring-yellow-400 focus:border-yellow-400">
+                            <option value="">Todas</option>
+                        </select>
+                    </div>
+                    <div>
+                        <button id="filterClear" type="button" class="inline-flex items-center px-4 py-2 bg-yellow-400 text-gray-900 font-semibold rounded-md hover:bg-yellow-300 focus:outline-none">Limpiar</button>
+                    </div>
+                </div>
+            </div>
+
+        <!-- Grid de productos -->
+        <main class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Cuadro 1 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden" data-ad-url="https://es.wallapop.com/item/cuadro-pintura-al-oleo-1162278763">
+                <img src="imagenes_jpg/Cuadro1.jpg" 
+                    alt="Óleo sobre tabla: Pampa argentina" 
+                    class="product-image" 
+                    loading="lazy" 
+                    data-images="
+                        imagenes_jpg/Cuadro1.jpg, 
+                        imagenes_jpg/Cuadro1_1.jpg
+                    ">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Cuadro 1: Oleo sobre tabla</h2>
+                    <p class="text-gray-700 text-sm mb-2">Paisaje de la Pampa argentina en tonos cálidos.</p>
+                    <ul class="text-sm text-gray-500">
+                        <li><strong>Autor:</strong> Liscarinci</li>
+                        <li><strong>Técnica:</strong> Óleo sobre tabla</li>
+                        <li><strong>Medidas:</strong> 59 x 49 cm</li>
+                        <li><strong>Precio:</strong> 50€</li>                    
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Cuadro 2 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden" data-reserved="true">
+                <img src="imagenes_jpg/Cuadro2.jpg" 
+                    alt="Acuarela: Avenida de la Constitución de Sevilla" 
+                    class="product-image" 
+                    loading="lazy"
+                    data-images="
+                        imagenes_jpg/Cuadro2.jpg,
+                        imagenes_jpg/Cuadro2_1.jpg
+                    ">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Cuadro 2: </h2>
+                    <p class="text-gray-700 text-sm mb-2">Escena urbana sevillana con edificios emblemáticos.</p>
+                    <ul class="text-sm text-gray-500">
+                        <li><strong>Autor:</strong> Manuel Matey Bande</li>
+                        <li><strong>Técnica:</strong> Acuarela</li>
+                        <li><strong>Medidas:</strong> 50.5 x 42.5 cm</li>
+                        <li><strong>Precio:</strong> 20€</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Cuadro 3 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="imagenes_jpg/Cuadro3.jpg" 
+                    alt="Óleo sobre lienzo: Paisaje de Cantabria" 
+                    class="product-image" 
+                    loading="lazy"
+                    data-images="
+                        imagenes_jpg/Cuadro3.jpg,
+                        imagenes_jpg/Cuadro3_1.jpg
+                    ">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Cuadro 3: Oleo sobre lienzo</h2>
+                    <p class="text-gray-700 text-sm mb-2">Paisaje natural de Cantabria con tonos verdes y azules.</p>
+                    <ul class="text-sm text-gray-500">
+                        <li><strong>Autor:</strong> Colomina</li>
+                        <li><strong>Técnica:</strong> Óleo sobre lienzo</li>
+                        <li><strong>Medidas:</strong> 51.7 x 60 cm</li>
+                        <li><strong>Precio:</strong> 30€</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Cuadro 4 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="imagenes_jpg/Cuadro4.jpg" 
+                    alt="Vista en perspectiva cónica de calle Padre Damián" 
+                    class="product-image" 
+                    loading="lazy"
+                    data-images="
+                        imagenes_jpg/Cuadro4.jpg,
+                        imagenes_jpg/Cuadro4_1.jpg
+                    ">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Cuadro 4: Vista de calle Padre Damian</h2>
+                    <p class="text-gray-700 text-sm mb-2">Escena urbana con técnica de puntillismo.</p>
+                    <ul class="text-sm text-gray-500">
+                        <li><strong>Autor:</strong> Aureliano Juarez</li>
+                        <li><strong>Técnica:</strong> Puntillismo</li>
+                        <li><strong>Medidas:</strong> 63 x 52 cm</li>
+                        <li><strong>Precio:</strong> 15€</li>
+                    </ul>
+                </div>
+            </div>
+            
+
+            
+            <!-- Cuadro 6 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="imagenes_jpg/Cuadro6.jpg" 
+                    alt="Flores en óleo sobre lienzo" 
+                    class="product-image" 
+                    loading="lazy"
+                    data-images="
+                        imagenes_jpg/Cuadro6.jpg,
+                        imagenes_jpg/Cuadro6_1.jpg
+                    ">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Cuadro 6: Flores</h2>
+                    <p class="text-gray-700 text-sm mb-2">Bodegón floral con composición equilibrada.</p>
+                    <ul class="text-sm text-gray-500">
+                        <li><strong>Autor:</strong> PacoToro</li>
+                        <li><strong>Técnica:</strong> Óleo en Lienzo</li>
+                        <li><strong>Medidas:</strong> 70.5 x 71.5 cm</li>
+                        <li><strong>Precio:</strong> 150€ (individual) / 200€ (el par)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Cuadro 7 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="imagenes_jpg/Cuadro7.jpg" 
+                    alt="Flores en óleo sobre lienzo" 
+                    class="product-image" 
+                    loading="lazy"
+                    data-images="
+                        imagenes_jpg/Cuadro7.jpg,
+                        imagenes_jpg/Cuadro7_1.jpg
+                    ">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Cuadro 7: Flores</h2>
+                    <p class="text-gray-700 text-sm mb-2">Bodegón floral, pieza compañera del cuadro 6.</p>
+                    <ul class="text-sm text-gray-500">
+                        <li><strong>Autor:</strong> PacoToro</li>
+                        <li><strong>Técnica:</strong> Óleo en Lienzo</li>
+                        <li><strong>Medidas:</strong> 70.5 x 71.5 cm</li>
+                        <li><strong>Precio:</strong> 150€ (individual) / 200€ (el par)</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Cuadro 8 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="imagenes_jpg/Cuadro8.jpg" 
+                    alt="Vista de muelle: marina en óleo" 
+                    class="product-image" 
+                    loading="lazy"
+                    data-images="
+                        imagenes_jpg/Cuadro8.jpg,
+                        imagenes_jpg/Cuadro8_1.jpg
+                    ">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Cuadro 8: Oleo en Lienzo</h2>
+                    <p class="text-gray-700 text-sm mb-2">Vista del muelle con barcos atracados.</p>
+                    <ul class="text-sm text-gray-500">
+                        <li><strong>Autor:</strong> Segrelles</li>
+                        <li><strong>Técnica:</strong> Óleo en Lienzo</li>
+                        <li><strong>Medidas:</strong> 54 x 62 cm</li>
+                        <li><strong>Precio:</strong> 100€</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Cuadro 9 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="imagenes_jpg/Cuadro9.jpg" 
+                    alt="Óleo sobre tabla de Arellano" 
+                    class="product-image" 
+                    loading="lazy"
+                    data-images="
+                        imagenes_jpg/Cuadro9.jpg,
+                        imagenes_jpg/Cuadro9_1.jpg
+                    ">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Cuadro 9: Oleo sobre tabla</h2>
+                    <p class="text-gray-700 text-sm mb-2">Composición clásica de corte tradicional.</p>
+                    <ul class="text-sm text-gray-500">
+                        <li><strong>Autor:</strong> Arellano</li>
+                        <li><strong>Técnica:</strong> Óleo sobre tabla</li>
+                        <li><strong>Medidas:</strong> 50 x 58 cm</li>
+                        <li><strong>Precio:</strong> 60€</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Marco -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="imagenes_jpg/Marco.jpg" 
+                    alt="Marco Dorado envejecido" 
+                    class="product-image" 
+                    loading="lazy"
+                    data-images="
+                        imagenes_jpg/Marco.jpg,
+                        imagenes_jpg/Marco_1.jpg
+                    ">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Marco: Dorado envejecido</h2>
+                    <ul class="text-sm text-gray-500">
+                        <li><strong>Autor:</strong> N/A</li>
+                        <li><strong>Técnica:</strong> N/A</li>
+                        <li><strong>Medidas:</strong> 67 x 76 cm</li>
+                        <li><strong>Precio:</strong> 10€</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Cuadro 10 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="imagenes_jpg/Cuadro10.jpg" 
+                    alt="Óleo sobre tabla de J.M. Liñan" 
+                    class="product-image" 
+                    loading="lazy"
+                    data-images="
+                        imagenes_jpg/Cuadro10.jpg,
+                        imagenes_jpg/Cuadro10_1.jpg
+                    ">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Cuadro 10: Oleo sobre tabla</h2>
+                    <p class="text-gray-700 text-sm mb-2">Paisaje figurativo con gran riqueza cromática.</p>
+                    <ul class="text-sm text-gray-500">
+                        <li><strong>Autor:</strong> J.M.Liñan</li>
+                        <li><strong>Técnica:</strong> Óleo sobre tabla</li>
+                        <li><strong>Medidas:</strong> 76.2 x 64.5 cm</li>
+                        <li><strong>Precio:</strong> 70€</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Cuadro 11 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="imagenes_jpg/Cuadro11.jpg" 
+                    alt="Óleo sobre lienzo de A. Marcos" 
+                    class="product-image" 
+                    loading="lazy"
+                    data-images="
+                        imagenes_jpg/Cuadro11.jpg,
+                        imagenes_jpg/Cuadro11_1.jpg
+                    ">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Cuadro 11: Oleo sobre lienzo</h2>
+                    <p class="text-gray-700 text-sm mb-2">Marina/ paisaje con pincelada suelta.</p>
+                    <ul class="text-sm text-gray-500">
+                        <li><strong>Autor:</strong> A.Marcos</li>
+                        <li><strong>Técnica:</strong> Óleo sobre lienzo</li>
+                        <li><strong>Medidas:</strong> 66.7 x 75.5 cm</li>
+                        <li><strong>Precio:</strong> 100€</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Cuadro 12 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="imagenes_jpg/Cuadro12.jpg" 
+                    alt="Muelle Desguaces Barcos" 
+                    class="product-image" 
+                    loading="lazy"
+                    data-images="
+                        imagenes_jpg/Cuadro12.jpg,
+                        imagenes_jpg/Cuadro12_1.jpg
+                    ">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Cuadro 12: Oleo sobre Lienzo</h2>
+                    <p class="text-gray-700 text-sm mb-2">Muelle de desguace de barcos en Chipiona, Cádiz.</p>
+                    <ul class="text-sm text-gray-500">
+                        <li><strong>Autor:</strong> Nuñes Vaya</li>
+                        <li><strong>Técnica:</strong> Óleo en Lienzo</li>
+                        <li><strong>Medidas:</strong> 67.8 x 55 cm</li>
+                        <li><strong>Precio:</strong> 100€</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Cuadro 13 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="imagenes_jpg/Cuadro13.jpg" 
+                    alt="Papiro Egipcio enmarcado entre cristales" 
+                    class="product-image" 
+                    loading="lazy"
+                    data-images="
+                        imagenes_jpg/Cuadro13.jpg,
+                        imagenes_jpg/Cuadro13_1.jpg
+                    ">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Cuadro 13: Papiro Egipcio enmarcado</h2>
+                    <p class="text-gray-700 text-sm mb-2">Motivo egipcio tradicional sobre papiro.</p>
+                    <ul class="text-sm text-gray-500">
+                        <li><strong>Autor:</strong> N/A</li>
+                        <li><strong>Técnica:</strong> Papiro enmarcado entre cristales</li>
+                        <li><strong>Medidas:</strong> 64.7 x 52.5 cm</li>
+                        <li><strong>Precio:</strong> 50€</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Cuadro 14 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="imagenes_jpg/Cuadro14.jpg" 
+                    alt="Vista de puerto" 
+                    class="product-image" 
+                    loading="lazy"
+                    data-images="
+                        imagenes_jpg/Cuadro14.jpg,
+                        imagenes_jpg/Cuadro14_1.jpg
+                    ">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Cuadro 14: Oleo sobre lienzo</h2>
+                    <p class="text-gray-700 text-sm mb-2">Vista de puerto con barcos y cielo abierto.</p>
+                    <ul class="text-sm text-gray-500">
+                        <li><strong>Autor:</strong> Desconocido</li>
+                        <li><strong>Técnica:</strong> Óleo sobre lienzo</li>
+                        <li><strong>Medidas:</strong> 55.5 x 63.5 cm</li>
+                        <li><strong>Precio:</strong> 100€</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Cuadro 15 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="imagenes_jpg/Cuadro15.jpg" 
+                    alt="Óleo sobre tabla de Liscarinci" 
+                    class="product-image" 
+                    loading="lazy"
+                    data-images="
+                        imagenes_jpg/Cuadro15.jpg,
+                        imagenes_jpg/Cuadro15_1.jpg
+                    ">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Cuadro 15: Oleo sobre tabla</h2>
+                    <p class="text-gray-700 text-sm mb-2">Composición figurativa de estética clásica.</p>
+                    <ul class="text-sm text-gray-500">
+                        <li><strong>Autor:</strong> Liscarinci</li>
+                        <li><strong>Técnica:</strong> Óleo sobre tabla</li>
+                        <li><strong>Medidas:</strong> 70 x 80 cm</li>
+                        <li><strong>Precio:</strong> 70€</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Cuadro 16 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="imagenes_jpg/Cuadro16.jpg" 
+                    alt="Patio canario" 
+                    class="product-image" 
+                    loading="lazy"
+                    data-images="
+                        imagenes_jpg/Cuadro16.jpg,
+                        imagenes_jpg/Cuadro16_1.jpg
+                    ">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Cuadro 16: Oleo sobre lienzo</h2>
+                    <p class="text-gray-700 text-sm mb-2">Patio tradicional canario con arquitectura vernácula.</p>
+                    <ul class="text-sm text-gray-500">
+                        <li><strong>Autor:</strong> Galán</li>
+                        <li><strong>Técnica:</strong> Óleo sobre lienzo</li>
+                        <li><strong>Medidas:</strong> 86 x 73 cm</li>
+                        <li><strong>Precio:</strong> 70€</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Cuadro 17 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="imagenes_jpg/Cuadro17.jpg" 
+                    alt="Mosaico enmarcado" 
+                    class="product-image" 
+                    loading="lazy"
+                    data-images="
+                        imagenes_jpg/Cuadro17.jpg,
+                        imagenes_jpg/Cuadro17_1.jpg
+                    ">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Cuadro 17: Mosaico enmarcado</h2>
+                    <p class="text-gray-700 text-sm mb-2">Motivo decorativo en mosaico con inspiración clásica.</p>
+                    <ul class="text-sm text-gray-500">
+                        <li><strong>Autor:</strong> N/A</li>
+                        <li><strong>Técnica:</strong> Mosaico</li>
+                        <li><strong>Medidas:</strong> 34.2 x 20 cm</li>
+                        <li><strong>Precio:</strong> 10€</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Cuadro 18 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="imagenes_jpg/Cuadro18.jpg" 
+                    alt="Punto de cruz enmarcado" 
+                    class="product-image" 
+                    loading="lazy"
+                    data-images="
+                        imagenes_jpg/Cuadro18.jpg,
+                        imagenes_jpg/Cuadro18_1.jpg
+                    ">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Cuadro 18: Punto de cruz enmarcado</h2>
+                    <p class="text-gray-700 text-sm mb-2">Motivo textil artesanal con marco.</p>
+                    <ul class="text-sm text-gray-500">
+                        <li><strong>Autor:</strong> N/A</li>
+                        <li><strong>Técnica:</strong> Punto de cruz</li>
+                        <li><strong>Medidas:</strong> 37.7 x 27.8 cm</li>
+                        <li><strong>Precio:</strong> 5€</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Cuadro 19 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="imagenes_jpg/Cuadro19.jpg" 
+                    alt="Puerto de Sevilla" 
+                    class="product-image" 
+                    loading="lazy"
+                    data-images="
+                        imagenes_jpg/Cuadro19.jpg,
+                        imagenes_jpg/Cuadro19_1.jpg
+                    ">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Cuadro 19: Puerto de Sevilla</h2>
+                    <p class="text-gray-700 text-sm mb-2">Edificio de Aduanas y Elcano en el puerto.</p>
+                    <ul class="text-sm text-gray-500">
+                        <li><strong>Autor:</strong> N/A</li>
+                        <li><strong>Técnica:</strong> N/A</li>
+                        <li><strong>Medidas:</strong> 48.5 x 57.5 cm</li>
+                        <li><strong>Precio:</strong> 150€</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Cuadro 20 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden" data-reserved="true">
+                <img src="imagenes_jpg/Cuadro20.jpg" 
+                    alt="Anciano Balinés" 
+                    class="product-image" 
+                    loading="lazy"
+                    data-images="
+                        imagenes_jpg/Cuadro20.jpg,
+                        imagenes_jpg/Cuadro20_1.jpg
+                    ">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Cuadro 20: Anciano Balines</h2>
+                    <p class="text-gray-700 text-sm mb-2">Retrato costumbrista con técnica mixta.</p>
+                    <ul class="text-sm text-gray-500">
+                        <li><strong>Autor:</strong> Firmado</li>
+                        <li><strong>Técnica:</strong> Mixta (óleo sobre vegetales)</li>
+                        <li><strong>Medidas:</strong> 42.2 x 52.5 cm</li>
+                        <li><strong>Precio:</strong> 10€</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Cuadro 21 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="imagenes_jpg/Cuadro21.jpg" 
+                    alt="Lámina de grabado: Torre del Oro" 
+                    class="product-image" 
+                    loading="lazy"
+                    data-images="
+                        imagenes_jpg/Cuadro21.jpg,
+                        imagenes_jpg/Cuadro21_1.jpg
+                    ">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Cuadro 21: Lámina de grabado</h2>
+                    <p class="text-gray-700 text-sm mb-2">La Torre del Oro, icono de Sevilla, en grabado.</p>
+                    <ul class="text-sm text-gray-500">
+                        <li><strong>Autor:</strong> Firmado</li>
+                        <li><strong>Técnica:</strong> Grabado</li>
+                        <li><strong>Medidas:</strong> 35.8 x 26 cm</li>
+                        <li><strong>Precio:</strong> 15€</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Cuadro 22 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="imagenes_jpg/Cuadro22.jpg" 
+                    alt="Lámina de grabado: El Cachorro cruzando el Puente de Triana" 
+                    class="product-image" 
+                    loading="lazy"
+                    data-images="
+                        imagenes_jpg/Cuadro22.jpg,
+                        imagenes_jpg/Cuadro22_1.jpg
+                    ">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Cuadro 22: Lámina de grabado</h2>
+                    <p class="text-gray-700 text-sm mb-2">El Cachorro cruzando el Puente de Triana.</p>
+                    <ul class="text-sm text-gray-500">
+                        <li><strong>Autor:</strong> Juan Maria Sanchez</li>
+                        <li><strong>Técnica:</strong> Grabado (Ejemplar 14/125)</li>
+                        <li><strong>Medidas:</strong> 43.5 x 33.5 cm</li>
+                        <li><strong>Precio:</strong> 30€</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Cuadro 23 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="imagenes_jpg/Cuadro23.jpg" 
+                    alt="Acuarela de patio sevillano" 
+                    class="product-image" 
+                    loading="lazy"
+                    data-images="
+                        imagenes_jpg/Cuadro23.jpg,
+                        imagenes_jpg/Cuadro23_1.jpg
+                    ">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Cuadro 23: Acuarela</h2>
+                    <p class="text-gray-700 text-sm mb-2">Patio sevillano con vegetación y azulejos.</p>
+                    <ul class="text-sm text-gray-500">
+                        <li><strong>Autor:</strong> Manuel Matey Bande</li>
+                        <li><strong>Técnica:</strong> Acuarela</li>
+                        <li><strong>Medidas:</strong> 42.5 x 50.5 cm</li>
+                        <li><strong>Precio:</strong> 25€</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Cuadro 24 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="imagenes_jpg/Cuadro24.jpg" 
+                    alt="Acuarela de J. Carmona" 
+                    class="product-image" 
+                    loading="lazy"
+                    data-images="
+                        imagenes_jpg/Cuadro24.jpg,
+                        imagenes_jpg/Cuadro24_1.jpg
+                    ">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Cuadro 24: Acuarela</h2>
+                    <p class="text-gray-700 text-sm mb-2">Composición en acuarela de temática urbana.</p>
+                    <ul class="text-sm text-gray-500">
+                        <li><strong>Autor:</strong> J.Carmona</li>
+                        <li><strong>Técnica:</strong> Acuarela</li>
+                        <li><strong>Medidas:</strong> 51 x 43 cm</li>
+                        <li><strong>Precio:</strong> 20€</li>
+                    </ul>
+                </div>
+            </div>
+            
+
+            
+            <!-- Cuadro 26 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="imagenes_jpg/Cuadro26.jpg" 
+                    alt="Seda balinesa" 
+                    class="product-image" 
+                    loading="lazy"
+                    data-images="
+                        imagenes_jpg/Cuadro26.jpg,
+                        imagenes_jpg/Cuadro26_1.jpg
+                    ">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Cuadro 26: Seda balinesa</h2>
+                    <p class="text-gray-700 text-sm mb-2">Escena balinesa con motivos tradicionales.</p>
+                    <ul class="text-sm text-gray-500">
+                        <li><strong>Autor:</strong> N/A</li>
+                        <li><strong>Técnica:</strong> Seda balinesa</li>
+                        <li><strong>Medidas:</strong> 44.2 x 41 cm</li>
+                        <li><strong>Precio:</strong> 25€</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Cuadro 27 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="imagenes_jpg/Cuadro27.jpg" 
+                    alt="Grabado de lance de toros" 
+                    class="product-image" 
+                    loading="lazy"
+                    data-images="
+                        imagenes_jpg/Cuadro27.jpg,
+                        imagenes_jpg/Cuadro27_1.jpg
+                    ">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Cuadro 27: Grabado</h2>
+                    <p class="text-gray-700 text-sm mb-2">Lance taurino en aguafuerte y aguatinta.</p>
+                    <ul class="text-sm text-gray-500">
+                        <li><strong>Autor:</strong> N/A</li>
+                        <li><strong>Técnica:</strong> Grabado</li>
+                        <li><strong>Medidas:</strong> 44.5 x 34 cm</li>
+                        <li><strong>Precio:</strong> 50€</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Cuadro 28 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="imagenes_jpg/Cuadro28.jpg" 
+                    alt="Alegoría en seda balinesa" 
+                    class="product-image" 
+                    loading="lazy"
+                    data-images="
+                        imagenes_jpg/Cuadro28.jpg,
+                        imagenes_jpg/Cuadro28_1.jpg
+                    ">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Cuadro 28: Alegoría en seda balinesa</h2>
+                    <p class="text-gray-700 text-sm mb-2">Escena alegórica con motivos balineses.</p>
+                    <ul class="text-sm text-gray-500">
+                        <li><strong>Autor:</strong> N/A</li>
+                        <li><strong>Técnica:</strong> Seda balinesa</li>
+                        <li><strong>Medidas:</strong> 44 x 41 cm</li>
+                        <li><strong>Precio:</strong> 30€</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Cuadro 29 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden" data-reserved="true">
+                <img src="imagenes_jpg/Cuadro29.jpg" 
+                    alt="Mujeres en la playa" 
+                    class="product-image" 
+                    loading="lazy"
+                    data-images="
+                        imagenes_jpg/Cuadro29.jpg,
+                        imagenes_jpg/Cuadro29_1.jpg
+                    ">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Cuadro 29: Óleo en tabla</h2>
+                    <p class="text-gray-700 text-sm mb-2">Escena costera con figuras femeninas.</p>
+                    <ul class="text-sm text-gray-500">
+                        <li><strong>Autor:</strong> Sinova</li>
+                        <li><strong>Técnica:</strong> Óleo en tabla</li>
+                        <li><strong>Medidas:</strong> 34.5 x 29.5 cm</li>
+                        <li><strong>Precio:</strong> 25€</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Cuadro 30 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="imagenes_jpg/Cuadro30.jpg" 
+                    alt="Anciano Balinés" 
+                    class="product-image" 
+                    loading="lazy"
+                    data-images="
+                        imagenes_jpg/Cuadro30.jpg,
+                        imagenes_jpg/Cuadro30_1.jpg
+                    ">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Cuadro 30: Anciano Balines</h2>
+                    <p class="text-gray-700 text-sm mb-2">Retrato balinés en técnica mixta.</p>
+                    <ul class="text-sm text-gray-500">
+                        <li><strong>Autor:</strong> Firmado</li>
+                        <li><strong>Técnica:</strong> Mixta (óleo sobre vegetales)</li>
+                        <li><strong>Medidas:</strong> 37 x 32.7 cm</li>
+                        <li><strong>Precio:</strong> 15€</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Cuadro 31 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="imagenes_jpg/Cuadro31.jpg" 
+                    alt="Flores de H. Hooter" 
+                    class="product-image" 
+                    loading="lazy"
+                    data-images="
+                        imagenes_jpg/Cuadro31.jpg,
+                        imagenes_jpg/Cuadro31_1.jpg
+                    ">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Cuadro 31: Flores</h2>
+                    <p class="text-gray-700 text-sm mb-2">Bodegón floral sobre cobre.</p>
+                    <ul class="text-sm text-gray-500">
+                        <li><strong>Autor:</strong> H.Hooter</li>
+                        <li><strong>Técnica:</strong> Óleo sobre cobre</li>
+                        <li><strong>Medidas:</strong> 42 x 37 cm</li>
+                        <li><strong>Precio:</strong> 40€</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Cuadro 32 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="imagenes_jpg/Cuadro32.jpg" 
+                    alt="Paisaje Holandés" 
+                    class="product-image" 
+                    loading="lazy"
+                    data-images="
+                        imagenes_jpg/Cuadro32.jpg,
+                        imagenes_jpg/Cuadro32_1.jpg
+                    ">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Cuadro 32: Paisaje Holandés</h2>
+                    <p class="text-gray-700 text-sm mb-2">Paisaje nórdico de atmósfera apacible.</p>
+                    <ul class="text-sm text-gray-500">
+                        <li><strong>Autor:</strong> N/A</li>
+                        <li><strong>Técnica:</strong> Óleo sobre tabla</li>
+                        <li><strong>Medidas:</strong> 42 x 37 cm</li>
+                        <li><strong>Precio:</strong> 20€</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Cuadro 33 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="imagenes_jpg/Cuadro33.jpg" 
+                    alt="Grabado aguafuerte" 
+                    class="product-image" 
+                    loading="lazy"
+                    data-images="
+                        imagenes_jpg/Cuadro33.jpg,
+                        imagenes_jpg/Cuadro33_1.jpg
+                    ">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Cuadro 33: Grabado aguafuerte</h2>
+                    <p class="text-gray-700 text-sm mb-2">Estampa en aguafuerte con numeración.</p>
+                    <ul class="text-sm text-gray-500">
+                        <li><strong>Autor:</strong> E.Huck</li>
+                        <li><strong>Técnica:</strong> Grabado aguafuerte (Ejemplar 119/175)</li>
+                        <li><strong>Medidas:</strong> 51.5 x 42 cm</li>
+                        <li><strong>Precio:</strong> 15€</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Cuadro 34 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="imagenes_jpg/Cuadro34.jpg" 
+                    alt="Acuarela de coetero" 
+                    class="product-image" 
+                    loading="lazy"
+                    data-images="
+                        imagenes_jpg/Cuadro34.jpg,
+                        imagenes_jpg/Cuadro34_1.jpg
+                    ">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Cuadro 34: Acuarela de coetero</h2>
+                    <p class="text-gray-700 text-sm mb-2">Figura popular con cohetes en acuarela.</p>
+                    <ul class="text-sm text-gray-500">
+                        <li><strong>Autor:</strong> E.Zurra</li>
+                        <li><strong>Técnica:</strong> Acuarela</li>
+                        <li><strong>Medidas:</strong> N/A</li>
+                        <li><strong>Precio:</strong> 50€</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Cuadro 35 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="imagenes_jpg/Cuadro35.jpg" 
+                    alt="Poema del Mar - Lámina enmarcada" 
+                    class="product-image" 
+                    loading="lazy">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Cuadro 35: Poema del Mar</h2>
+                    <p class="text-gray-700 text-sm mb-2">Lámina de Néstor, enmarcada entre cristales.</p>
+                    <ul class="text-sm text-gray-500">
+                        <li><strong>Autor:</strong> Néstor</li>
+                        <li><strong>Técnica:</strong> Lámina enmarcada</li>
+                        <li><strong>Medidas:</strong> 46 x 47.5 cm</li>
+                        <li><strong>Precio:</strong> 15€</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Cuadro 36 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="imagenes_jpg/Cuadro36.jpg" 
+                    alt="Poema del Mar - Lámina enmarcada" 
+                    class="product-image" 
+                    loading="lazy">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Cuadro 36: Poema del Mar</h2>
+                    <p class="text-gray-700 text-sm mb-2">Lámina de Néstor, enmarcada entre cristales.</p>
+                    <ul class="text-sm text-gray-500">
+                        <li><strong>Autor:</strong> Néstor</li>
+                        <li><strong>Técnica:</strong> Lámina enmarcada</li>
+                        <li><strong>Medidas:</strong> 46 x 47.5 cm</li>
+                        <li><strong>Precio:</strong> 15€</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Cuadro 37 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="imagenes_jpg/Cuadro37.jpg" 
+                    alt="Poema del Mar - Lámina enmarcada" 
+                    class="product-image" 
+                    loading="lazy">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Cuadro 37: Poema del Mar</h2>
+                    <p class="text-gray-700 text-sm mb-2">Lámina de Néstor, enmarcada entre cristales.</p>
+                    <ul class="text-sm text-gray-500">
+                        <li><strong>Autor:</strong> Néstor</li>
+                        <li><strong>Técnica:</strong> Lámina enmarcada</li>
+                        <li><strong>Medidas:</strong> 46 x 47.5 cm</li>
+                        <li><strong>Precio:</strong> 15€</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Cuadro 38 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="imagenes_jpg/Cuadro38.jpg" 
+                    alt="Poema del Mar - Lámina enmarcada" 
+                    class="product-image" 
+                    loading="lazy">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Cuadro 38: Poema del Mar</h2>
+                    <p class="text-gray-700 text-sm mb-2">Lámina de Néstor, enmarcada entre cristales.</p>
+                    <ul class="text-sm text-gray-500">
+                        <li><strong>Autor:</strong> Néstor</li>
+                        <li><strong>Técnica:</strong> Lámina enmarcada</li>
+                        <li><strong>Medidas:</strong> 46 x 47.5 cm</li>
+                        <li><strong>Precio:</strong> 15€</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Cuadro 39 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="imagenes_jpg/Cuadro39.jpg" 
+                    alt="Seda balinesa teñida, firmado" 
+                    class="product-image" 
+                    loading="lazy">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Cuadro 39: Seda balinesa teñida</h2>
+                    <p class="text-gray-700 text-sm mb-2">Escena balinesa sobre seda, pieza firmada.</p>
+                    <ul class="text-sm text-gray-500">
+                        <li><strong>Autor:</strong> Firmado</li>
+                        <li><strong>Técnica:</strong> Seda balinesa teñida</li>
+                        <li><strong>Medidas:</strong> 102 x 81 cm</li>
+                        <li><strong>Precio:</strong> 100€</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Cuadro 40 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="imagenes_jpg/Cuadro40.jpg" 
+                    alt="Seda balinesa teñida, firmado" 
+                    class="product-image" 
+                    loading="lazy">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Cuadro 40: Seda balinesa teñida</h2>
+                    <p class="text-gray-700 text-sm mb-2">Seda balinesa teñida, obra firmada.</p>
+                    <ul class="text-sm text-gray-500">
+                        <li><strong>Autor:</strong> Firmado</li>
+                        <li><strong>Técnica:</strong> Seda balinesa teñida</li>
+                        <li><strong>Medidas:</strong> 100 x 91 cm</li>
+                        <li><strong>Precio:</strong> Preguntar</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Cuadro 41 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="imagenes_jpg/Cuadro41.jpg" 
+                    alt="Seda balinesa teñida (cristal roto), firmado" 
+                    class="product-image" 
+                    loading="lazy">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Cuadro 41: Seda balinesa teñida</h2>
+                    <p class="text-gray-700 text-sm mb-2">Seda balinesa teñida en formato vertical (cristal roto), firmada.</p>
+                    <ul class="text-sm text-gray-500">
+                        <li><strong>Autor:</strong> Firmado</li>
+                        <li><strong>Técnica:</strong> Seda balinesa teñida</li>
+                        <li><strong>Medidas:</strong> 157 x 54 cm</li>
+                        <li><strong>Precio:</strong> 50€</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Cuadro 42 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="imagenes_jpg/Cuadro42.jpg" 
+                    alt="Niño - Betún sobre lámina decapado" 
+                    class="product-image" 
+                    loading="lazy">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Cuadro 42: Niño</h2>
+                    <p class="text-gray-700 text-sm mb-2">Figura infantil realizada con betún sobre lámina decapada.</p>
+                    <ul class="text-sm text-gray-500">
+                        <li><strong>Autor:</strong> Carlos Tejedor Barrios</li>
+                        <li><strong>Técnica:</strong> Betún sobre lámina decapado</li>
+                        <li><strong>Medidas:</strong> 116 x 86 cm</li>
+                        <li><strong>Precio:</strong> 200€</li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+        </section>
+
+        <!-- Sección de Artículos Varios -->
+        <section id="varios-section" style="display: none;">
+            <!-- Descripción de Artículos Varios -->
+            <div class="max-w-4xl mb-12">
+                <h2 class="text-2xl font-bold text-gray-800 mb-4">Artículos Varios</h2>
+                <p class="text-gray-600 leading-relaxed text-sm">
+                    Explora nuestra selección de artículos diversos y únicos. Desde objetos decorativos hasta piezas funcionales, cada artículo ha sido cuidadosamente seleccionado.
+                </p>
+                <ul class="list-disc pl-5 text-gray-600 text-sm">
+                    <li>Variedad de artículos únicos y funcionales.</li>
+                    <li>Calidad garantizada en todos nuestros productos.</li>
+                    <li>Piezas ideales para decoración y uso cotidiano.</li>
+                </ul>
+            </div>
+
+            <!-- Grid de artículos varios -->
+            <main class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Artículo ejemplo 1 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="h-64 bg-gray-200 flex items-center justify-center">
+                        <span class="text-gray-500 text-4xl">📦</span>
+                    </div>
+                    <div class="p-4">
+                        <h2 class="text-xl font-bold mb-2">Artículo Varios 1</h2>
+                        <p class="text-gray-700 text-sm mb-2">Descripción del primer artículo de la sección varios.</p>
+                        <ul class="text-sm text-gray-500">
+                            <li><strong>Categoría:</strong> Decoración</li>
+                            <li><strong>Material:</strong> Varios</li>
+                            <li><strong>Medidas:</strong> Por definir</li>
+                            <li><strong>Precio:</strong> Consultar</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Artículo ejemplo 2 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="h-64 bg-gray-200 flex items-center justify-center">
+                        <span class="text-gray-500 text-4xl">🏺</span>
+                    </div>
+                    <div class="p-4">
+                        <h2 class="text-xl font-bold mb-2">Artículo Varios 2</h2>
+                        <p class="text-gray-700 text-sm mb-2">Descripción del segundo artículo de la sección varios.</p>
+                        <ul class="text-sm text-gray-500">
+                            <li><strong>Categoría:</strong> Antigüedades</li>
+                            <li><strong>Material:</strong> Cerámica</li>
+                            <li><strong>Medidas:</strong> Por definir</li>
+                            <li><strong>Precio:</strong> Consultar</li>
+                        </ul>
+                    </div>
+                </div>
+            </main>
+        </section>
+    </div>
+
+    <!-- Pie de página -->
+    <footer class="bg-yellow-400 mt-10 p-6 flex justify-center items-center text-gray-800 text-sm font-bold">
+        <span>© 2025 Catálogo. Todos los derechos reservados.</span>
+    </footer>
+
+    <!-- Lightbox: overlay para ver imágenes a mayor tamaño -->
+    <div id="lightbox" class="lightbox-overlay" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.85); z-index:2000;">
+        <button id="lbClose" type="button" aria-label="Cerrar" style="position:absolute; top:12px; right:12px; background:rgba(255,255,255,0.15); border:none; color:#fff; width:36px; height:36px; border-radius:999px; font-size:20px; cursor:pointer;">✕</button>
+        <div style="position:absolute; inset:56px 12px 48px; display:flex; align-items:center; justify-content:center;">
+            <img id="lbImage" alt="Vista ampliada" style="max-width:100%; max-height:100%; object-fit:contain; box-shadow:0 10px 25px rgba(0,0,0,0.4); border-radius:8px;" />
+        </div>
+        <div id="lbControls" style="position:absolute; top:50%; left:0; right:0; transform:translateY(-50%); display:flex; justify-content:space-between; padding:0 12px;">
+            <button id="lbPrev" type="button" aria-label="Anterior" style="background:rgba(255,255,255,0.2); color:#fff; border:none; width:40px; height:40px; border-radius:999px; cursor:pointer;">‹</button>
+            <button id="lbNext" type="button" aria-label="Siguiente" style="background:rgba(255,255,255,0.2); color:#fff; border:none; width:40px; height:40px; border-radius:999px; cursor:pointer;">›</button>
+        </div>
+        <div id="lbDots" style="position:absolute; bottom:12px; left:50%; transform:translateX(-50%); display:flex; gap:8px; background:rgba(255,255,255,0.1); padding:6px 10px; border-radius:999px;"></div>
+    </div>
+
+</body>
+<script src="index.js"></script>
+</html>

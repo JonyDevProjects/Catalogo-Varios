@@ -103,6 +103,97 @@ body {
     }
 }
 
+/* Estilos para la galería de imágenes dentro de las tarjetas */
+.image-gallery-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    z-index: 5;
+    opacity: 0;
+    transition: opacity 0.3s, background 0.3s;
+}
+
+.gallery-nav:hover {
+    background: rgba(0,0,0,0.7);
+}
+
+.gallery-prev {
+    left: 8px;
+}
+
+.gallery-next {
+    right: 8px;
+}
+
+.image-gallery-container:hover .gallery-nav {
+    opacity: 1;
+}
+
+.gallery-dots {
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 4px;
+    background: rgba(255,255,255,0.9);
+    padding: 4px 8px;
+    border-radius: 999px;
+    backdrop-filter: blur(4px);
+    z-index: 5;
+}
+
+.gallery-dots button {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+/* Estilos responsivos para dispositivos móviles */
+@media (max-width: 768px) {
+    .gallery-nav {
+        opacity: 0.8;
+        width: 28px;
+        height: 28px;
+        font-size: 16px;
+    }
+    
+    .gallery-prev {
+        left: 4px;
+    }
+    
+    .gallery-next {
+        right: 4px;
+    }
+    
+    .gallery-dots {
+        bottom: 4px;
+        padding: 3px 6px;
+    }
+    
+    .gallery-dots button {
+        width: 6px;
+        height: 6px;
+    }
+}
+
 .product-image {
     width: 100%;
     height: auto; /* Mantiene proporciones para ver toda la obra */
@@ -187,7 +278,7 @@ body {
 /* Estilos para marcas de estado de productos */
 .status-indicator {
     position: absolute;
-    bottom: 12px;
+    top: 12px;
     right: 12px;
     padding: 6px 12px;
     border-radius: 6px;
@@ -227,7 +318,7 @@ body {
 }
 
 /* Efecto visual sutil para productos reservados */
-.product-card.reserved {
+.product-card {
     position: relative;
 }
 

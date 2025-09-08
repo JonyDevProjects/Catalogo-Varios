@@ -464,8 +464,8 @@
             
             // Actualizar título de la página
             document.title = sectionName === 'cuadros' 
-                ? 'Catálogo de Cuadros - Industrias Ariova'
-                : 'Catálogo de Artículos Varios - Industrias Ariova';
+                ? 'Catálogo de Cuadros'
+                : 'Catálogo de Artículos Varios';
         }
 
         // Agregar event listeners a las pestañas

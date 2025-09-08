@@ -1,0 +1,973 @@
+{
+  "cuadros": [
+    {
+      "id": "cuadro1",
+      "categoria": "Cuadro",
+      "titulo": "Cuadro 1: Oleo sobre tabla",
+      "descripcion": "Paisaje de la Pampa argentina en tonos cálidos.",
+      "autor": "Liscarinci",
+      "tecnica": "Óleo sobre tabla",
+      "medidas": "59 x 49 cm",
+      "precio": 50,
+      "imagenes": [
+        "imagenes_jpg/Cuadro1.jpg",
+        "imagenes_jpg/Cuadro1_1.jpg"
+      ],
+      "alt": "Óleo sobre tabla: Pampa argentina",
+      "adUrl": "https://es.wallapop.com/item/cuadro-pintura-al-oleo-1162278763",
+      "reservado": false
+    },
+    {
+      "id": "cuadro2",
+      "categoria": "Cuadro",
+      "titulo": "Cuadro 2: Acuarela",
+      "descripcion": "Escena urbana sevillana con edificios emblemáticos.",
+      "autor": "Manuel Matey Bande",
+      "tecnica": "Acuarela",
+      "medidas": "50.5 x 42.5 cm",
+      "precio": 20,
+      "imagenes": [
+        "imagenes_jpg/Cuadro2.jpg",
+        "imagenes_jpg/Cuadro2_1.jpg"
+      ],
+      "alt": "Acuarela: Avenida de la Constitución de Sevilla",
+      "adUrl": "https://es.wallapop.com/item/acuarela-avenida-constitucion-1165947466",
+      "reservado": true
+    },
+    {
+      "id": "cuadro3",
+      "categoria": "Cuadro",
+      "titulo": "Cuadro 3: Oleo sobre lienzo",
+      "descripcion": "Paisaje natural de Cantabria con tonos verdes y azules.",
+      "autor": "Colomina",
+      "tecnica": "Óleo sobre lienzo",
+      "medidas": "51.7 x 60 cm",
+      "precio": 30,
+      "imagenes": [
+        "imagenes_jpg/Cuadro3.jpg",
+        "imagenes_jpg/Cuadro3_1.jpg"
+      ],
+      "alt": "Óleo sobre lienzo: Paisaje de Cantabria",
+      "adUrl": "https://es.wallapop.com/item/oleo-paisaje-montana-colomina-1165949442",
+      "reservado": false
+    },
+    {
+      "id": "cuadro4",
+      "categoria": "Cuadro",
+      "titulo": "Cuadro 4: Vista en perspectiva",
+      "descripcion": "Vista en perspectiva cónica de calle Padre Damián.",
+      "autor": "",
+      "tecnica": "Óleo",
+      "medidas": "",
+      "precio": 0,
+      "imagenes": [
+        "imagenes_jpg/Cuadro4.jpg",
+        "imagenes_jpg/Cuadro4_1.jpg"
+      ],
+      "alt": "Vista en perspectiva cónica de calle Padre Damián",
+      "adUrl": "https://es.wallapop.com/item/cuadro-calle-padre-damian-1165950622",
+      "reservado": false
+    },
+    {
+      "id": "cuadro6",
+      "categoria": "Cuadro",
+      "titulo": "Cuadro 6: Flores",
+      "descripcion": "Bodegón de flores con técnica clásica.",
+      "autor": "",
+      "tecnica": "Óleo sobre lienzo",
+      "medidas": "",
+      "precio": 0,
+      "imagenes": [
+        "imagenes_jpg/Cuadro6.jpg",
+        "imagenes_jpg/Cuadro6_1.jpg"
+      ],
+      "alt": "Bodegón de flores",
+      "adUrl": "https://es.wallapop.com/item/cuadro-oleo-flores-lienzo-1166022294",
+      "reservado": false
+    },
+    {
+      "id": "cuadro7",
+      "categoria": "Cuadro",
+      "titulo": "Cuadro 7: Flores",
+      "descripcion": "Composición floral en tonos suaves.",
+      "autor": "",
+      "tecnica": "Óleo sobre lienzo",
+      "medidas": "",
+      "precio": 0,
+      "imagenes": [
+        "imagenes_jpg/Cuadro7.jpg",
+        "imagenes_jpg/Cuadro7_1.jpg"
+      ],
+      "alt": "Composición floral",
+      "adUrl": "https://es.wallapop.com/item/cuadro-oleo-flores-lienzo-1166022294",
+      "reservado": false
+    },
+    {
+      "id": "cuadro8",
+      "categoria": "Cuadro",
+      "titulo": "Cuadro 8: Muelle",
+      "descripcion": "Vista portuaria con embarcaciones.",
+      "autor": "",
+      "tecnica": "Óleo sobre lienzo",
+      "medidas": "",
+      "precio": 0,
+      "imagenes": [
+        "imagenes_jpg/Cuadro8.jpg",
+        "imagenes_jpg/Cuadro8_1.jpg"
+      ],
+      "alt": "Vista de muelle con barcos",
+      "adUrl": "https://es.wallapop.com/item/cuadro-oleo-lienzo-muelle-1166023641",
+      "reservado": false
+    },
+    {
+      "id": "cuadro9",
+      "categoria": "Cuadro",
+      "titulo": "Cuadro 9: Oleo sobre tabla",
+      "descripcion": "Composición clásica de corte tradicional.",
+      "autor": "",
+      "tecnica": "Óleo sobre tabla",
+      "medidas": "",
+      "precio": 0,
+      "imagenes": [
+        "imagenes_jpg/Cuadro9.jpg",
+        "imagenes_jpg/Cuadro9_1.jpg"
+      ],
+      "alt": "Composición clásica",
+      "adUrl": "https://es.wallapop.com/item/oleo-sobre-tabla-paisaje-1166025125",
+      "reservado": false
+    },
+    {
+      "id": "cuadro10",
+      "categoria": "Cuadro",
+      "titulo": "Cuadro 10: Oleo sobre tabla",
+      "descripcion": "Paisaje figurativo con gran riqueza cromática.",
+      "autor": "J.M. Liñan",
+      "tecnica": "Óleo sobre tabla",
+      "medidas": "",
+      "precio": 0,
+      "imagenes": [
+        "imagenes_jpg/Cuadro10.jpg",
+        "imagenes_jpg/Cuadro10_1.jpg"
+      ],
+      "alt": "Óleo sobre tabla de J.M. Liñan",
+      "adUrl": "https://es.wallapop.com/item/cuadro-al-oleo-sobre-tabla-1166027599",
+      "reservado": false
+    },
+    {
+      "id": "cuadro11",
+      "categoria": "Cuadro",
+      "titulo": "Cuadro 11: Oleo sobre lienzo",
+      "descripcion": "Marina/ paisaje con pincelada suelta.",
+      "autor": "A. Marcos",
+      "tecnica": "Óleo sobre lienzo",
+      "medidas": "",
+      "precio": 0,
+      "imagenes": [
+        "imagenes_jpg/Cuadro11.jpg",
+        "imagenes_jpg/Cuadro11_1.jpg"
+      ],
+      "alt": "Óleo sobre lienzo de A. Marcos",
+      "adUrl": "https://es.wallapop.com/item/cuadro-al-oleo-paisaje-campestre-1166029879",
+      "reservado": false
+    },
+    {
+      "id": "cuadro12",
+      "categoria": "Cuadro",
+      "titulo": "Cuadro 12: Oleo sobre Lienzo",
+      "descripcion": "Muelle de desguace de barcos en Chipiona, Cádiz.",
+      "autor": "",
+      "tecnica": "Óleo sobre lienzo",
+      "medidas": "",
+      "precio": 0,
+      "imagenes": [
+        "imagenes_jpg/Cuadro12.jpg",
+        "imagenes_jpg/Cuadro12_1.jpg"
+      ],
+      "alt": "Muelle Desguaces Barcos",
+      "adUrl": "https://es.wallapop.com/item/oleo-s-lienzo-muelle-chipiona-1166031850",
+      "reservado": false
+    },
+    {
+      "id": "cuadro13",
+      "categoria": "Cuadro",
+      "titulo": "Cuadro 13: Papiro Egipcio enmarcado",
+      "descripcion": "Motivo egipcio tradicional sobre papiro.",
+      "autor": "",
+      "tecnica": "Papiro",
+      "medidas": "",
+      "precio": 0,
+      "imagenes": [
+        "imagenes_jpg/Cuadro13.jpg",
+        "imagenes_jpg/Cuadro13_1.jpg"
+      ],
+      "alt": "Papiro Egipcio enmarcado entre cristales",
+      "adUrl": "https://es.wallapop.com/item/papiro-egipcio-enmarcado-1166033689",
+      "reservado": false
+    },
+    {
+      "id": "cuadro14",
+      "categoria": "Cuadro",
+      "titulo": "Cuadro 14: Oleo sobre lienzo",
+      "descripcion": "Vista de puerto con barcos y cielo abierto.",
+      "autor": "",
+      "tecnica": "Óleo sobre lienzo",
+      "medidas": "55.5 x 63.5 cm",
+      "precio": 100,
+      "imagenes": [
+        "imagenes_jpg/Cuadro14.jpg",
+        "imagenes_jpg/Cuadro14_1.jpg"
+      ],
+      "alt": "Vista de puerto",
+      "adUrl": "https://es.wallapop.com/item/cuadro-oleo-sobre-lienzo-vista-de-puerto-1166131679",
+      "reservado": false
+    },
+    {
+      "id": "cuadro15",
+      "categoria": "Cuadro",
+      "titulo": "Cuadro 15: Oleo sobre tabla",
+      "descripcion": "Composición figurativa de estética clásica.",
+      "autor": "Liscarinci",
+      "tecnica": "Óleo sobre tabla",
+      "medidas": "70 x 80 cm",
+      "precio": 70,
+      "imagenes": [
+        "imagenes_jpg/Cuadro15.jpg",
+        "imagenes_jpg/Cuadro15_1.jpg"
+      ],
+      "alt": "Óleo sobre tabla de Liscarinci",
+      "adUrl": "https://es.wallapop.com/item/oleo-sobre-tabla-paisaje-campestre-1166131861",
+      "reservado": false
+    },
+    {
+      "id": "cuadro16",
+      "categoria": "Cuadro",
+      "titulo": "Cuadro 16: Oleo sobre lienzo",
+      "descripcion": "Patio tradicional canario con arquitectura vernácula.",
+      "autor": "Galán",
+      "tecnica": "Óleo sobre lienzo",
+      "medidas": "86 x 73 cm",
+      "precio": 70,
+      "imagenes": [
+        "imagenes_jpg/Cuadro16.jpg",
+        "imagenes_jpg/Cuadro16_1.jpg"
+      ],
+      "alt": "Patio canario",
+      "adUrl": "https://es.wallapop.com/item/oleo-sobre-lienzo-patio-tradicional-canario-1166132471",
+      "reservado": false
+    },
+    {
+      "id": "cuadro17",
+      "categoria": "Cuadro",
+      "titulo": "Cuadro 17: Mosaico enmarcado",
+      "descripcion": "Motivo decorativo en mosaico con inspiración clásica.",
+      "autor": "N/A",
+      "tecnica": "Mosaico",
+      "medidas": "34.2 x 20 cm",
+      "precio": 10,
+      "imagenes": [
+        "imagenes_jpg/Cuadro17.jpg",
+        "imagenes_jpg/Cuadro17_1.jpg"
+      ],
+      "alt": "Mosaico enmarcado",
+      "adUrl": "https://es.wallapop.com/item/cuadro-mosaico-enmarcado-artesanal-1166132627",
+      "reservado": false
+    },
+    {
+      "id": "cuadro18",
+      "categoria": "Cuadro",
+      "titulo": "Cuadro 18: Punto de cruz enmarcado",
+      "descripcion": "Motivo textil artesanal con marco.",
+      "autor": "N/A",
+      "tecnica": "Punto de cruz",
+      "medidas": "37.7 x 27.8 cm",
+      "precio": 5,
+      "imagenes": [
+        "imagenes_jpg/Cuadro18.jpg",
+        "imagenes_jpg/Cuadro18_1.jpg"
+      ],
+      "alt": "Punto de cruz enmarcado",
+      "adUrl": "https://es.wallapop.com/item/cuadro-punto-de-cruz-alfabeto-1166132703",
+      "reservado": true
+    },
+    {
+      "id": "cuadro19",
+      "categoria": "Cuadro",
+      "titulo": "Cuadro 19: Puerto de Sevilla",
+      "descripcion": "Edificio de Aduanas y Elcano en el puerto.",
+      "autor": "N/A",
+      "tecnica": "N/A",
+      "medidas": "48.5 x 57.5 cm",
+      "precio": 150,
+      "imagenes": [
+        "imagenes_jpg/Cuadro19.jpg",
+        "imagenes_jpg/Cuadro19_1.jpg"
+      ],
+      "alt": "Puerto de Sevilla",
+      "adUrl": "https://es.wallapop.com/item/cuadro-puerto-sevilla-1166132867",
+      "reservado": false
+    },
+    {
+      "id": "cuadro20",
+      "categoria": "Cuadro",
+      "titulo": "Cuadro 20: Anciano Balines",
+      "descripcion": "Retrato costumbrista con técnica mixta.",
+      "autor": "Firmado",
+      "tecnica": "Mixta (óleo sobre vegetales)",
+      "medidas": "42.2 x 52.5 cm",
+      "precio": 10,
+      "imagenes": [
+        "imagenes_jpg/Cuadro20.jpg",
+        "imagenes_jpg/Cuadro20_1.jpg"
+      ],
+      "alt": "Anciano Balinés",
+      "adUrl": "https://es.wallapop.com/item/oleo-anciano-balines-sobre-hojas-1166133033",
+      "reservado": true
+    },
+    {
+      "id": "cuadro21",
+      "categoria": "Cuadro",
+      "titulo": "Cuadro 21: Lámina de grabado",
+      "descripcion": "La Torre del Oro, icono de Sevilla, en grabado.",
+      "autor": "Firmado",
+      "tecnica": "Grabado",
+      "medidas": "35.8 x 26 cm",
+      "precio": 15,
+      "imagenes": [
+        "imagenes_jpg/Cuadro21.jpg",
+        "imagenes_jpg/Cuadro21_1.jpg"
+      ],
+      "alt": "Lámina de grabado: Torre del Oro",
+      "adUrl": "https://es.wallapop.com/item/grabado-torre-del-oro-cuadro-1166133148",
+      "reservado": false
+    },
+    {
+      "id": "cuadro22",
+      "categoria": "Cuadro",
+      "titulo": "Cuadro 22: Lámina de grabado",
+      "descripcion": "El Cachorro cruzando el Puente de Triana.",
+      "autor": "Juan Maria Sanchez",
+      "tecnica": "Grabado (Ejemplar 14/125)",
+      "medidas": "43.5 x 33.5 cm",
+      "precio": 30,
+      "imagenes": [
+        "imagenes_jpg/Cuadro22.jpg",
+        "imagenes_jpg/Cuadro22_1.jpg"
+      ],
+      "alt": "Lámina de grabado: El Cachorro cruzando el Puente de Triana",
+      "adUrl": "https://es.wallapop.com/item/grabado-puente-triana-1166133397",
+      "reservado": false
+    },
+    {
+      "id": "cuadro23",
+      "categoria": "Cuadro",
+      "titulo": "Cuadro 23: Acuarela",
+      "descripcion": "Patio sevillano con vegetación y azulejos.",
+      "autor": "Manuel Matey Bande",
+      "tecnica": "Acuarela",
+      "medidas": "42.5 x 50.5 cm",
+      "precio": 25,
+      "imagenes": [
+        "imagenes_jpg/Cuadro23.jpg",
+        "imagenes_jpg/Cuadro23_1.jpg"
+      ],
+      "alt": "Acuarela de patio sevillano",
+      "adUrl": "https://es.wallapop.com/item/acuarela-patio-sevillano-1166133486",
+      "reservado": false
+    },
+    {
+      "id": "cuadro26",
+      "categoria": "Cuadro",
+      "titulo": "Cuadro 26: Seda balinesa",
+      "descripcion": "Escena balinesa con motivos tradicionales.",
+      "autor": "N/A",
+      "tecnica": "Seda balinesa",
+      "medidas": "44.2 x 41 cm",
+      "precio": 25,
+      "imagenes": [
+        "imagenes_jpg/Cuadro26.jpg",
+        "imagenes_jpg/Cuadro26_1.jpg"
+      ],
+      "alt": "Seda balinesa",
+      "adUrl": "https://es.wallapop.com/item/cuadro-seda-bali-arte-tradicional-1166134800",
+      "reservado": false
+    },
+    {
+      "id": "cuadro27",
+      "categoria": "Cuadro",
+      "titulo": "Cuadro 27: Grabado",
+      "descripcion": "Lance taurino en aguafuerte y aguatinta.",
+      "autor": "N/A",
+      "tecnica": "Grabado",
+      "medidas": "44.5 x 34 cm",
+      "precio": 50,
+      "imagenes": [
+        "imagenes_jpg/Cuadro27.jpg",
+        "imagenes_jpg/Cuadro27_1.jpg"
+      ],
+      "alt": "Grabado de lance de toros",
+      "adUrl": "https://es.wallapop.com/item/grabado-lance-taurino-1166134903",
+      "reservado": false
+    },
+    {
+      "id": "cuadro28",
+      "categoria": "Cuadro",
+      "titulo": "Cuadro 28: Alegoría en seda balinesa",
+      "descripcion": "Escena alegórica con motivos balineses.",
+      "autor": "N/A",
+      "tecnica": "Seda balinesa",
+      "medidas": "44 x 41 cm",
+      "precio": 30,
+      "imagenes": [
+        "imagenes_jpg/Cuadro28.jpg",
+        "imagenes_jpg/Cuadro28_1.jpg"
+      ],
+      "alt": "Alegoría en seda balinesa",
+      "adUrl": "https://es.wallapop.com/item/cuadro-seda-balinesa-arte-asiatico-1166134945",
+      "reservado": false
+    },
+    {
+      "id": "cuadro29",
+      "categoria": "Cuadro",
+      "titulo": "Cuadro 29: Óleo en tabla",
+      "descripcion": "Escena costera con figuras femeninas.",
+      "autor": "Sinova",
+      "tecnica": "Óleo en tabla",
+      "medidas": "34.5 x 29.5 cm",
+      "precio": 25,
+      "imagenes": [
+        "imagenes_jpg/Cuadro29.jpg",
+        "imagenes_jpg/Cuadro29_1.jpg"
+      ],
+      "alt": "Mujeres en la playa",
+      "adUrl": "https://es.wallapop.com/item/oleo-s-xx-escena-costera-1166135031",
+      "reservado": true
+    },
+    {
+      "id": "cuadro30",
+      "categoria": "Cuadro",
+      "titulo": "Cuadro 30: Anciano Balines",
+      "descripcion": "Retrato balinés en técnica mixta.",
+      "autor": "Firmado",
+      "tecnica": "Mixta (óleo sobre vegetales)",
+      "medidas": "37 x 32.7 cm",
+      "precio": 15,
+      "imagenes": [
+        "imagenes_jpg/Cuadro30.jpg",
+        "imagenes_jpg/Cuadro30_1.jpg"
+      ],
+      "alt": "Anciano Balinés",
+      "adUrl": "https://es.wallapop.com/item/oleo-anciana-balinesa-1166135255",
+      "reservado": false
+    },
+    {
+      "id": "cuadro31",
+      "categoria": "Cuadro",
+      "titulo": "Cuadro 31: Flores",
+      "descripcion": "Bodegón floral sobre cobre.",
+      "autor": "H.Hooter",
+      "tecnica": "Óleo sobre cobre",
+      "medidas": "42 x 37 cm",
+      "precio": 40,
+      "imagenes": [
+        "imagenes_jpg/Cuadro31.jpg",
+        "imagenes_jpg/Cuadro31_1.jpg"
+      ],
+      "alt": "Flores de H. Hooter",
+      "adUrl": "https://es.wallapop.com/item/cuadro-flores-oleo-sobre-cobre-1166654098",
+      "reservado": false
+    },
+    {
+      "id": "cuadro32",
+      "categoria": "Cuadro",
+      "titulo": "Cuadro 32: Paisaje Holandés",
+      "descripcion": "Paisaje nórdico de atmósfera apacible.",
+      "autor": "N/A",
+      "tecnica": "Óleo sobre tabla",
+      "medidas": "42 x 37 cm",
+      "precio": 20,
+      "imagenes": [
+        "imagenes_jpg/Cuadro32.jpg",
+        "imagenes_jpg/Cuadro32_1.jpg"
+      ],
+      "alt": "Paisaje Holandés",
+      "adUrl": "https://es.wallapop.com/item/cuadro-oleo-paisaje-holandes-1166655273",
+      "reservado": true
+    },
+    {
+      "id": "cuadro33",
+      "categoria": "Cuadro",
+      "titulo": "Cuadro 33: Grabado aguafuerte",
+      "descripcion": "Estampa en aguafuerte con numeración.",
+      "autor": "E.Huck",
+      "tecnica": "Grabado aguafuerte (Ejemplar 119/175)",
+      "medidas": "51.5 x 42 cm",
+      "precio": 15,
+      "imagenes": [
+        "imagenes_jpg/Cuadro33.jpg",
+        "imagenes_jpg/Cuadro33_1.jpg"
+      ],
+      "alt": "Grabado aguafuerte",
+      "adUrl": "https://es.wallapop.com/item/aguafuerte-enmarcado-e-huck-1166656516",
+      "reservado": false
+    },
+    {
+      "id": "cuadro34",
+      "categoria": "Cuadro",
+      "titulo": "Cuadro 34: Acuarela de coetero",
+      "descripcion": "Figura popular con cohetes en acuarela.",
+      "autor": "E.Zurra",
+      "tecnica": "Acuarela",
+      "medidas": "N/A",
+      "precio": 50,
+      "imagenes": [
+        "imagenes_jpg/Cuadro34.jpg",
+        "imagenes_jpg/Cuadro34_1.jpg"
+      ],
+      "alt": "Acuarela de coetero",
+      "adUrl": "https://es.wallapop.com/item/acuarela-cohetero-en-pueblo-blanco-1166785553",
+      "reservado": false
+    },
+    {
+      "id": "cuadro35",
+      "categoria": "Cuadro",
+      "titulo": "Cuadro 35: Poema del Mar",
+      "descripcion": "Lámina de Néstor, enmarcada entre cristales.",
+      "autor": "Néstor",
+      "tecnica": "Lámina enmarcada",
+      "medidas": "46 x 47.5 cm",
+      "precio": 15,
+      "imagenes": [
+        "imagenes_jpg/Cuadro35.jpg",
+        "imagenes_jpg/Cuadro35_1.jpg"
+      ],
+      "alt": "Poema del Mar - Lámina enmarcada",
+      "adUrl": "https://es.wallapop.com/item/laminas-bajamar-enmarcadas-1166792012",
+      "reservado": false
+    },
+    {
+      "id": "cuadro36",
+      "categoria": "Cuadro",
+      "titulo": "Cuadro 36: Poema del Mar",
+      "descripcion": "Lámina de Néstor, enmarcada entre cristales.",
+      "autor": "Néstor",
+      "tecnica": "Lámina enmarcada",
+      "medidas": "46 x 47.5 cm",
+      "precio": 15,
+      "imagenes": [
+        "imagenes_jpg/Cuadro36.jpg",
+        "imagenes_jpg/Cuadro36_1.jpg"
+      ],
+      "alt": "Poema del Mar - Lámina enmarcada",
+      "adUrl": "https://es.wallapop.com/item/laminas-bajamar-enmarcadas-1166792012",
+      "reservado": false
+    },
+    {
+      "id": "cuadro37",
+      "categoria": "Cuadro",
+      "titulo": "Cuadro 37: Poema del Mar",
+      "descripcion": "Lámina de Néstor, enmarcada entre cristales.",
+      "autor": "Néstor",
+      "tecnica": "Lámina enmarcada",
+      "medidas": "46 x 47.5 cm",
+      "precio": 15,
+      "imagenes": [
+        "imagenes_jpg/Cuadro37.jpg",
+        "imagenes_jpg/Cuadro37_1.jpg"
+      ],
+      "alt": "Poema del Mar - Lámina enmarcada",
+      "adUrl": "https://es.wallapop.com/item/laminas-bajamar-enmarcadas-1166792012",
+      "reservado": false
+    },
+    {
+      "id": "cuadro38",
+      "categoria": "Cuadro",
+      "titulo": "Cuadro 38: Poema del Mar",
+      "descripcion": "Lámina de Néstor, enmarcada entre cristales.",
+      "autor": "Néstor",
+      "tecnica": "Lámina enmarcada",
+      "medidas": "46 x 47.5 cm",
+      "precio": 15,
+      "imagenes": [
+        "imagenes_jpg/Cuadro38.jpg",
+        "imagenes_jpg/Cuadro38_1.jpg"
+      ],
+      "alt": "Poema del Mar - Lámina enmarcada",
+      "adUrl": "https://es.wallapop.com/item/laminas-bajamar-enmarcadas-1166792012",
+      "reservado": false
+    },
+    {
+      "id": "cuadro39",
+      "categoria": "Cuadro",
+      "titulo": "Cuadro 39: Seda balinesa teñida",
+      "descripcion": "Escena balinesa sobre seda, pieza firmada.",
+      "autor": "Firmado",
+      "tecnica": "Seda balinesa teñida",
+      "medidas": "102 x 81 cm",
+      "precio": 100,
+      "imagenes": [
+        "imagenes_jpg/Cuadro39.jpg",
+        "imagenes_jpg/Cuadro39_1.jpg",
+        "imagenes_jpg/Cuadro39_2.jpg"
+      ],
+      "alt": "Seda balinesa teñida, firmado",
+      "adUrl": "https://es.wallapop.com/item/pintura-seda-bali-arte-unico-1166795063",
+      "reservado": false
+    },
+    {
+      "id": "cuadro40",
+      "categoria": "Cuadro",
+      "titulo": "Cuadro 40: Seda balinesa teñida",
+      "descripcion": "Seda balinesa teñida, obra firmada.",
+      "autor": "Firmado",
+      "tecnica": "Seda balinesa teñida",
+      "medidas": "100 x 91 cm",
+      "precio": 0,
+      "precioDes": "Preguntar",
+      "imagenes": [
+        "imagenes_jpg/Cuadro40.jpg",
+        "imagenes_jpg/Cuadro40_1.jpg"
+      ],
+      "alt": "Seda balinesa teñida, firmado",
+      "adUrl": "https://es.wallapop.com/item/pintura-seda-balinesa-aves-exoticas-una-llena-1166796916",
+      "reservado": false
+    },
+    {
+      "id": "cuadro41",
+      "categoria": "Cuadro",
+      "titulo": "Cuadro 41: Seda balinesa teñida",
+      "descripcion": "Seda balinesa teñida en formato vertical (cristal roto), firmada.",
+      "autor": "Firmado",
+      "tecnica": "Seda balinesa teñida",
+      "medidas": "157 x 54 cm",
+      "precio": 50,
+      "imagenes": [
+        "imagenes_jpg/Cuadro41.jpg",
+        "imagenes_jpg/Cuadro41_1.jpg"
+      ],
+      "alt": "Seda balinesa teñida (cristal roto), firmado",
+      "adUrl": "https://es.wallapop.com/item/pintura-seda-bali-naturaleza-vibrante-1166797705",
+      "reservado": false
+    },
+    {
+      "id": "cuadro42",
+      "categoria": "Cuadro",
+      "titulo": "Cuadro 42: Niño",
+      "descripcion": "Figura infantil realizada con betún sobre lámina decapada.",
+      "autor": "Carlos Tejedor Barrios",
+      "tecnica": "Betún sobre lámina decapado",
+      "medidas": "116 x 86 cm",
+      "precio": 200,
+      "imagenes": [
+        "imagenes_jpg/Cuadro42.jpg",
+        "imagenes_jpg/Cuadro42_1.jpg",
+        "imagenes_jpg/Cuadro42_2.jpg"
+      ],
+      "alt": "Niño - Betún sobre lámina decapado",
+      "adUrl": "https://es.wallapop.com/item/dibujo-nino-betun-sobre-lamina-1166798382",
+      "reservado": false
+    }
+  ],
+  "articulos": [
+    {
+      "id": "marco1",
+      "categoria": "Marco",
+      "titulo": "Marco Dorado Envejecido",
+      "descripcion": "Marco decorativo dorado con pátina de envejecimiento, ideal para cuadros clásicos.",
+      "material": "Madera dorada",
+      "medidas": "Varios tamaños disponibles",
+      "precio": 25,
+      "imagenes": [
+        "imagenes_jpg/Marco.jpg",
+        "imagenes_jpg/Marco_1.jpg"
+      ],
+      "alt": "Marco dorado envejecido",
+      "adUrl": "https://es.wallapop.com/item/marco-dorado-antiguo-1166026612",
+      "reservado": false
+    },
+    {
+      "id": "articulo1",
+      "categoria": "Coleccionismo",
+      "titulo": "Tocadiscos Portable Vintage",
+      "descripcion": "Tocadiscos portable para restaurar. Maletín de piel en buen estado.",
+      "material": "Piel y plástico",
+      "medidas": "40x32x12 cm",
+      "precio": 50,
+      "imagenes": [
+        "imagenes_jpg/Articulo1.jpg",
+        "imagenes_jpg/Articulo1_1.jpg",
+        "imagenes_jpg/Articulo1_2.jpg",
+        "imagenes_jpg/Articulo1_3.jpg"
+      ],
+      "alt": "Tocadiscos Portable Vintage",
+      "adUrl": "https://es.wallapop.com/item/tocadiscos-vintage-portatil-tepraz-oscar-1170001756",
+      "reservado": false
+    },
+    {
+      "id": "articulo2",
+      "categoria": "Antigüedades",
+      "titulo": "Berrea en bronce masiso",
+      "descripcion": "Esta pieza transmite serenidad y fuerza, ideal para coleccionistas de arte animalístico o amantes de la escultura clásica.",
+      "material": "Bronce masiso",
+      "medidas": "60x50x50 cm",
+      "precio": 1500,
+      "imagenes": [
+        "imagenes_jpg/Articulo2.png",
+        "imagenes_jpg/Articulo2_1.png",
+        "imagenes_jpg/Articulo2_2.png"
+      ],
+      "alt": "Berrea en bronce masiso",
+      "adUrl": "https://es.wallapop.com/item/berrea-en-bronce-masiso-1170003166",
+      "reservado": false
+    },
+    {
+      "id": "articulo3",
+      "categoria": "Tapis",
+      "titulo": "Tapices de tela enmarcados",
+      "descripcion": "Tapices de tela enmarcados, bordados sobre 1910.",
+      "material": "Tela",
+      "medidas": "81x58 cm",
+      "precio": 50,
+      "imagenes": [
+        "imagenes_jpg/Articulo3.jpg",
+        "imagenes_jpg/Articulo3_1.jpg",
+        "imagenes_jpg/Articulo4.jpg",
+        "imagenes_jpg/Articulo4_1.jpg"
+      ],
+      "alt": "Tapises de tela enmarcados",
+      "adUrl": "https://es.wallapop.com/item/tapiz-enmarcado-escena-romantica-1170003985",
+      "reservado": false
+    },
+    {
+      "id": "articulo5",
+      "categoria": "Accesorios",
+      "titulo": "Purera de madera con humidor",
+      "descripcion": "Purera de madera con humidor elegante, funcional",
+      "material": "Madera",
+      "medidas": "38x24x18 cm",
+      "precio": 50,
+      "imagenes": [
+        "imagenes_jpg/Articulo5.png",
+        "imagenes_jpg/Articulo5_1.png",
+        "imagenes_jpg/Articulo5_2.png"
+      ],
+      "alt": "Purera de madera con humidor",
+      "adUrl": "https://es.wallapop.com/item/humidor-de-madera-caja-para-puros-1170004742",
+      "reservado": false
+    },
+    {
+      "id": "articulo6",
+      "categoria": "Accesorios",
+      "titulo": "Diana electronica BLH-50CWX con gabinete",
+      "descripcion": "Diana electronica con gabinete. BLH-50CWX es una diana electrónica de gama media-alta",
+      "material": "Plástico, metal y madera",
+      "medidas": "55x64x10 cm",
+      "precio": 20,
+      "imagenes": [
+        "imagenes_jpg/Articulo6.jpg",
+        "imagenes_jpg/Articulo6_1.jpg"
+      ],
+      "alt": "Diana electronica BLH-50CWX con gabinete",
+      "adUrl": "https://es.wallapop.com/item/diana-electronica-blh-50cwx-1170005319",
+      "reservado": false
+    },
+    {
+      "id": "articulo7",
+      "categoria": "Accesorios",
+      "titulo": "Corbatero/Cinturonera",
+      "descripcion": "Corbatero/Cinturonera de alta calidad, ideal para mantener tus corbatas organizadas.",
+      "material": "Metal",
+      "medidas": "60x14x12 cm",
+      "precio": 15,
+      "imagenes": [
+        "imagenes_jpg/Articulo7.png",
+        "imagenes_jpg/Articulo7_1.jpg",
+        "imagenes_jpg/Articulo7_2.jpg"
+      ],
+      "alt": "Corbatero/Cituronera",
+      "adUrl": "https://es.wallapop.com/item/colgador-de-corbatas-y-cinturones-1170005767",
+      "reservado": false
+    },
+    {
+      "id": "articulo8",
+      "categoria": "Figuras",
+      "titulo": "Anciano con pipa, sentado, figura de cerámica",
+      "descripcion": "Figura de cerámica de un anciano sentado con pipa. Ideal para coleccionistas.",
+      "material": "Cerámica",
+      "medidas": "20x15x12 cm",
+      "precio": 20,
+      "imagenes": [
+        "imagenes_jpg/Articulo8.jpg",
+        "imagenes_jpg/Articulo8_1.jpg",
+        "imagenes_jpg/Articulo8_2.jpg",
+        "imagenes_jpg/Articulo8_3.jpg",
+        "imagenes_jpg/Articulo8_4.jpg"
+      ],
+      "alt": "Figura de cerámica 1",
+      "adUrl": "",
+      "reservado": false
+    },
+    {
+      "id": "articulo9",
+      "categoria": "Figuras",
+      "titulo": "Anciano con pipa, figura de cerámica",
+      "descripcion": "Figura de cerámica de un anciano con pipa. Ideal para coleccionistas.",
+      "material": "Cerámica",
+      "medidas": "20x15x12 cm",
+      "precio": 15,
+      "imagenes": [
+        "imagenes_jpg/Articulo9.jpg",
+        "imagenes_jpg/Articulo9_1.jpg",
+        "imagenes_jpg/Articulo9_2.jpg",
+        "imagenes_jpg/Articulo9_3.jpg"
+      ],
+      "alt": "Figura de cerámica 2",
+      "adUrl": "",
+      "reservado": false
+    },
+    {
+      "id": "articulo10",
+      "categoria": "Figuras",
+      "titulo": "Figura de cerámica estilo lladró, mujer con cuenco",
+      "descripcion": "Figura de cerámica de una mujer de pie con cuenco. Ideal para coleccionistas.",
+      "material": "Cerámica",
+      "medidas": "20x10x10 cm",
+      "precio": 20,
+      "imagenes": [
+        "imagenes_jpg/Articulo10.jpg",
+        "imagenes_jpg/Articulo10_1.jpg",
+        "imagenes_jpg/Articulo10_2.jpg"
+      ],
+      "alt": "Figura de cerámica 3",
+      "adUrl": "https://es.wallapop.com/item/figura-lladro-mujer-beige-ceramica-1170007523",
+      "reservado": false
+    },
+    {
+      "id": "articulo11",
+      "categoria": "Figuras",
+      "titulo": "Figura de cerámica estilo lladró, monja en oración",
+      "descripcion": "Figura de cerámica de una monja en oración. Ideal para coleccionistas.",
+      "material": "Cerámica",
+      "medidas": "25x15x15 cm",
+      "precio": 20,
+      "imagenes": [
+        "imagenes_jpg/Articulo11.jpg",
+        "imagenes_jpg/Articulo11_1.jpg",
+        "imagenes_jpg/Articulo11_2.jpg"
+      ],
+      "alt": "Figura de cerámica 4",
+      "adUrl": "https://es.wallapop.com/item/figura-religiosa-lladro-monja-orando-1170008725",
+      "reservado": false
+    },
+    {
+      "id": "articulo12",
+      "categoria": "Electrodomésticos",
+      "titulo": "Ventilador sobremesa marca Taurus",
+      "descripcion": "Ventilador de sobremesa de la marca Taurus de 2 velocidades",
+      "material": "Plástico",
+      "medidas": "60x30x30 cm",
+      "precio": 15,
+      "imagenes": [
+        "imagenes_jpg/Articulo12.jpg",
+        "imagenes_jpg/Articulo12_1.jpg"
+      ],
+      "alt": "Figura de cerámica 5",
+      "adUrl": "https://es.wallapop.com/item/ventilador-taurus-sobremesa-1170009388",
+      "reservado": false
+    },
+    {
+      "id": "articulo13",
+      "categoria": "Juegos de mesa",
+      "titulo": "Ajedrez chino artesanal con tablero decorado",
+      "descripcion": "Ajedrez chino artesanal con tablero decorado. Ideal para coleccionistas.",
+      "material": "Madera",
+      "medidas": "25x46x13(cerrado) , 46x46x7(abierto) cm",
+      "precio": 70,
+      "imagenes": [
+        "imagenes_jpg/Articulo13.jpg",
+        "imagenes_jpg/Articulo13_1.jpg"
+      ],
+      "alt": "Figura de cerámica 6",
+      "adUrl": "https://es.wallapop.com/item/ajedrez-chino-artesanal-1170011281",
+      "reservado": false
+    },
+    {
+      "id": "articulo14",
+      "categoria": "Electrónica",
+      "titulo": "Pletina para casete de audio",
+      "descripcion": "Pletina para casete de audio (no se sabe si funciona). Ideal para coleccionistas.",
+      "material": "Plástico y metal",
+      "medidas": "30x20x20 cm",
+      "precio": 15,
+      "imagenes": [
+        "imagenes_jpg/Articulo14.jpg",
+        "imagenes_jpg/Articulo14_1.jpg"
+      ],
+      "alt": "Figura de cerámica 8",
+      "adUrl": "https://es.wallapop.com/item/pletina-casete-philips-n2537-50-1170014918",
+      "reservado": true
+    },
+    {
+      "id": "articulo15",
+      "categoria": "Bienestar",
+      "titulo": "Suplemento de masaje para sillón",
+      "descripcion": "Suplemento de masaje para sillón, marca Brookstone.",
+      "material": "Textil",
+      "medidas": "100x40x5 cm",
+      "precio": 20,
+      "imagenes": [
+        "imagenes_jpg/Articulo15.jpg"
+      ],
+      "alt": "Figura de cerámica 7",
+      "adUrl": "https://es.wallapop.com/item/almohadilla-masaje-sillon-negra-1170013419",
+      "reservado": false
+    },
+    {
+      "id": "articulo16",
+      "categoria": "Viajes",
+      "titulo": "Maleta de viaje amsonite",
+      "descripcion": "Maleta Samsonite rígida con cierre de combinación.",
+      "material": "Policarbonato",
+      "medidas": "65x55x25 cm",
+      "precio": 30,
+      "imagenes": [
+        "imagenes_jpg/Articulo16.jpg",
+        "imagenes_jpg/Articulo16_1.jpg",
+        "imagenes_jpg/Articulo16_2.jpg"
+      ],
+      "alt": "Figura de cerámica 9",
+      "adUrl": "https://es.wallapop.com/item/maleta-samsonite-morada-1170017532",
+      "reservado": false
+    },
+    {
+      "id": "articulo17",
+      "categoria": "Hogar",
+      "titulo": "Humidificador marca Artrom",
+      "descripcion": "Humidificador de la marca Artrom, ideal para mantener la humedad en espacios cerrados.",
+      "material": "Plástico",
+      "medidas": "30x20x20 cm",
+      "precio": 15,
+      "imagenes": [
+        "imagenes_jpg/Articulo17.jpg",
+        "imagenes_jpg/Articulo17_1.jpg"
+      ],
+      "alt": "Figura de cerámica 11",
+      "adUrl": "https://es.wallapop.com/item/humidificador-ultrasonico-artrom-1170020044",
+      "reservado": false
+    },
+    {
+      "id": "articulo18",
+      "categoria": "Hogar",
+      "titulo": "Vasos de cristal marca Arcoroc",
+      "descripcion": "Set de 48 vasos de cristal de la marca Arcoroc.",
+      "material": "Cristal",
+      "medidas": "30x20x20 cm",
+      "precio": 20,
+      "imagenes": [
+        "imagenes_jpg/Articulo18.jpg"
+      ],
+      "alt": "Figura de cerámica 10",
+      "adUrl": "https://es.wallapop.com/item/vasos-arcoroc-isla-cristaleria-1170019415",
+      "reservado": false
+    }
+  ]
+}

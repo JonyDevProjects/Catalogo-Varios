@@ -54,12 +54,12 @@
     {
       "id": "cuadro4",
       "categoria": "Cuadro",
-      "titulo": "Cuadro 4: Vista en perspectiva",
-      "descripcion": "Vista en perspectiva cónica de calle Padre Damián.",
-      "autor": "",
-      "tecnica": "Óleo",
-      "medidas": "",
-      "precio": 0,
+      "titulo": "Cuadro 4: Vista de calle Padre Damian",
+      "descripcion": "Escena urbana con técnica de puntillismo.",
+      "autor": "Aureliano Juarez",
+      "tecnica": "Puntillismo",
+      "medidas": "63 x 52 cm",
+      "precio": 15,
       "imagenes": [
         "imagenes_jpg/Cuadro4.jpg",
         "imagenes_jpg/Cuadro4_1.jpg"
@@ -69,48 +69,67 @@
       "reservado": false
     },
     {
+      "id": "cuadro5",
+      "categoria": "Cuadro",
+      "titulo": "Cuadro 5: Virgen de Fuensalida",
+      "descripcion": "Óleo religioso del siglo XX, representación de la Virgen.",
+      "autor": "N/A",
+      "tecnica": "Óleo",
+      "medidas": "Consultar",
+      "precio": 0,
+      "imagenes": [
+        "imagenes_jpg/Cuadro5.jpg",
+        "imagenes_jpg/Cuadro5_1.jpg"
+      ],
+      "alt": "Virgen de Fuensalida - Óleo religioso",
+      "adUrl": "https://es.wallapop.com/item/cuadro-virgen-fuensalila-oleo-s-xx-1165952653",
+      "reservado": false
+    },
+    {
       "id": "cuadro6",
       "categoria": "Cuadro",
       "titulo": "Cuadro 6: Flores",
-      "descripcion": "Bodegón de flores con técnica clásica.",
-      "autor": "",
-      "tecnica": "Óleo sobre lienzo",
-      "medidas": "",
-      "precio": 0,
+      "descripcion": "Bodegón floral con composición equilibrada.",
+      "autor": "PacoToro",
+      "tecnica": "Óleo en Lienzo",
+      "medidas": "70.5 x 71.5 cm",
+      "precio": 150,
       "imagenes": [
         "imagenes_jpg/Cuadro6.jpg",
         "imagenes_jpg/Cuadro6_1.jpg"
       ],
       "alt": "Bodegón de flores",
       "adUrl": "https://es.wallapop.com/item/cuadro-oleo-flores-lienzo-1166022294",
-      "reservado": false
+      "reservado": false,
+      "precioDes": "150€ (individual) / 200€ (el par)"
     },
     {
       "id": "cuadro7",
       "categoria": "Cuadro",
       "titulo": "Cuadro 7: Flores",
-      "descripcion": "Composición floral en tonos suaves.",
-      "autor": "",
-      "tecnica": "Óleo sobre lienzo",
-      "medidas": "",
-      "precio": 0,
+      "descripcion": "Bodegón floral, pieza compañera del cuadro 6.",
+      "autor": "PacoToro",
+      "tecnica": "Óleo en Lienzo",
+      "medidas": "70.5 x 71.5 cm",
+      "precio": 150,
       "imagenes": [
         "imagenes_jpg/Cuadro7.jpg",
         "imagenes_jpg/Cuadro7_1.jpg"
       ],
       "alt": "Composición floral",
       "adUrl": "https://es.wallapop.com/item/cuadro-oleo-flores-lienzo-1166022294",
-      "reservado": false
+      "reservado": false,
+      "precioDes": "150€ (individual) / 200€ (el par)"
     },
     {
       "id": "cuadro8",
       "categoria": "Cuadro",
-      "titulo": "Cuadro 8: Muelle",
-      "descripcion": "Vista portuaria con embarcaciones.",
-      "autor": "",
-      "tecnica": "Óleo sobre lienzo",
-      "medidas": "",
-      "precio": 0,
+      "titulo": "Cuadro 8: Oleo en Lienzo",
+      "descripcion": "Vista del muelle con barcos atracados.",
+      "autor": "Segrelles",
+      "tecnica": "Óleo en Lienzo",
+      "medidas": "54 x 62 cm",
+      "precio": 100,
       "imagenes": [
         "imagenes_jpg/Cuadro8.jpg",
         "imagenes_jpg/Cuadro8_1.jpg"
@@ -124,10 +143,10 @@
       "categoria": "Cuadro",
       "titulo": "Cuadro 9: Oleo sobre tabla",
       "descripcion": "Composición clásica de corte tradicional.",
-      "autor": "",
+      "autor": "Arellano",
       "tecnica": "Óleo sobre tabla",
-      "medidas": "",
-      "precio": 0,
+      "medidas": "50 x 58 cm",
+      "precio": 60,
       "imagenes": [
         "imagenes_jpg/Cuadro9.jpg",
         "imagenes_jpg/Cuadro9_1.jpg"
@@ -141,10 +160,10 @@
       "categoria": "Cuadro",
       "titulo": "Cuadro 10: Oleo sobre tabla",
       "descripcion": "Paisaje figurativo con gran riqueza cromática.",
-      "autor": "J.M. Liñan",
+      "autor": "J.M.Liñan",
       "tecnica": "Óleo sobre tabla",
-      "medidas": "",
-      "precio": 0,
+      "medidas": "76.2 x 64.5 cm",
+      "precio": 70,
       "imagenes": [
         "imagenes_jpg/Cuadro10.jpg",
         "imagenes_jpg/Cuadro10_1.jpg"
@@ -158,10 +177,10 @@
       "categoria": "Cuadro",
       "titulo": "Cuadro 11: Oleo sobre lienzo",
       "descripcion": "Marina/ paisaje con pincelada suelta.",
-      "autor": "A. Marcos",
+      "autor": "A.Marcos",
       "tecnica": "Óleo sobre lienzo",
-      "medidas": "",
-      "precio": 0,
+      "medidas": "66.7 x 75.5 cm",
+      "precio": 100,
       "imagenes": [
         "imagenes_jpg/Cuadro11.jpg",
         "imagenes_jpg/Cuadro11_1.jpg"
@@ -175,10 +194,10 @@
       "categoria": "Cuadro",
       "titulo": "Cuadro 12: Oleo sobre Lienzo",
       "descripcion": "Muelle de desguace de barcos en Chipiona, Cádiz.",
-      "autor": "",
-      "tecnica": "Óleo sobre lienzo",
-      "medidas": "",
-      "precio": 0,
+      "autor": "Nuñes Vaya",
+      "tecnica": "Óleo en Lienzo",
+      "medidas": "67.8 x 55 cm",
+      "precio": 100,
       "imagenes": [
         "imagenes_jpg/Cuadro12.jpg",
         "imagenes_jpg/Cuadro12_1.jpg"
@@ -192,10 +211,10 @@
       "categoria": "Cuadro",
       "titulo": "Cuadro 13: Papiro Egipcio enmarcado",
       "descripcion": "Motivo egipcio tradicional sobre papiro.",
-      "autor": "",
-      "tecnica": "Papiro",
-      "medidas": "",
-      "precio": 0,
+      "autor": "N/A",
+      "tecnica": "Papiro enmarcado entre cristales",
+      "medidas": "64.7 x 52.5 cm",
+      "precio": 50,
       "imagenes": [
         "imagenes_jpg/Cuadro13.jpg",
         "imagenes_jpg/Cuadro13_1.jpg"
@@ -209,7 +228,7 @@
       "categoria": "Cuadro",
       "titulo": "Cuadro 14: Oleo sobre lienzo",
       "descripcion": "Vista de puerto con barcos y cielo abierto.",
-      "autor": "",
+      "autor": "Desconocido",
       "tecnica": "Óleo sobre lienzo",
       "medidas": "55.5 x 63.5 cm",
       "precio": 100,
@@ -375,6 +394,40 @@
       "reservado": false
     },
     {
+      "id": "cuadro24",
+      "categoria": "Cuadro",
+      "titulo": "Cuadro 24: Acuarela",
+      "descripcion": "Composición en acuarela de temática urbana.",
+      "autor": "J.Carmona",
+      "tecnica": "Acuarela",
+      "medidas": "51 x 43 cm",
+      "precio": 20,
+      "imagenes": [
+        "imagenes_jpg/Cuadro24.jpg",
+        "imagenes_jpg/Cuadro24_1.jpg"
+      ],
+      "alt": "Acuarela de J. Carmona",
+      "adUrl": "https://es.wallapop.com/item/acuarela-urbana-enmarcada-1166133591",
+      "reservado": true
+    },
+    {
+      "id": "cuadro25",
+      "categoria": "Cuadro",
+      "titulo": "Cuadro 25: Óleo sobre lienzo con espátula",
+      "descripcion": "Paisaje campestre realizado con técnica de espátula.",
+      "autor": "N/A",
+      "tecnica": "Óleo sobre lienzo con espátula",
+      "medidas": "Consultar",
+      "precio": 0,
+      "imagenes": [
+        "imagenes_jpg/Cuadro25.jpg",
+        "imagenes_jpg/Cuadro25_1.jpg"
+      ],
+      "alt": "Paisaje campestre con espátula",
+      "adUrl": "https://es.wallapop.com/item/oleo-sobre-lienzo-con-espatula-paisaje-campestre-1166134636",
+      "reservado": false
+    },
+    {
       "id": "cuadro26",
       "categoria": "Cuadro",
       "titulo": "Cuadro 26: Seda balinesa",
@@ -537,8 +590,7 @@
       "medidas": "46 x 47.5 cm",
       "precio": 15,
       "imagenes": [
-        "imagenes_jpg/Cuadro35.jpg",
-        "imagenes_jpg/Cuadro35_1.jpg"
+        "imagenes_jpg/Cuadro35.jpg"
       ],
       "alt": "Poema del Mar - Lámina enmarcada",
       "adUrl": "https://es.wallapop.com/item/laminas-bajamar-enmarcadas-1166792012",
@@ -554,8 +606,7 @@
       "medidas": "46 x 47.5 cm",
       "precio": 15,
       "imagenes": [
-        "imagenes_jpg/Cuadro36.jpg",
-        "imagenes_jpg/Cuadro36_1.jpg"
+        "imagenes_jpg/Cuadro36.jpg"
       ],
       "alt": "Poema del Mar - Lámina enmarcada",
       "adUrl": "https://es.wallapop.com/item/laminas-bajamar-enmarcadas-1166792012",
@@ -571,8 +622,7 @@
       "medidas": "46 x 47.5 cm",
       "precio": 15,
       "imagenes": [
-        "imagenes_jpg/Cuadro37.jpg",
-        "imagenes_jpg/Cuadro37_1.jpg"
+        "imagenes_jpg/Cuadro37.jpg"
       ],
       "alt": "Poema del Mar - Lámina enmarcada",
       "adUrl": "https://es.wallapop.com/item/laminas-bajamar-enmarcadas-1166792012",
@@ -588,8 +638,7 @@
       "medidas": "46 x 47.5 cm",
       "precio": 15,
       "imagenes": [
-        "imagenes_jpg/Cuadro38.jpg",
-        "imagenes_jpg/Cuadro38_1.jpg"
+        "imagenes_jpg/Cuadro38.jpg"
       ],
       "alt": "Poema del Mar - Lámina enmarcada",
       "adUrl": "https://es.wallapop.com/item/laminas-bajamar-enmarcadas-1166792012",
@@ -605,9 +654,7 @@
       "medidas": "102 x 81 cm",
       "precio": 100,
       "imagenes": [
-        "imagenes_jpg/Cuadro39.jpg",
-        "imagenes_jpg/Cuadro39_1.jpg",
-        "imagenes_jpg/Cuadro39_2.jpg"
+        "imagenes_jpg/Cuadro39.jpg"
       ],
       "alt": "Seda balinesa teñida, firmado",
       "adUrl": "https://es.wallapop.com/item/pintura-seda-bali-arte-unico-1166795063",
@@ -624,8 +671,7 @@
       "precio": 0,
       "precioDes": "Preguntar",
       "imagenes": [
-        "imagenes_jpg/Cuadro40.jpg",
-        "imagenes_jpg/Cuadro40_1.jpg"
+        "imagenes_jpg/Cuadro40.jpg"
       ],
       "alt": "Seda balinesa teñida, firmado",
       "adUrl": "https://es.wallapop.com/item/pintura-seda-balinesa-aves-exoticas-una-llena-1166796916",
@@ -641,8 +687,7 @@
       "medidas": "157 x 54 cm",
       "precio": 50,
       "imagenes": [
-        "imagenes_jpg/Cuadro41.jpg",
-        "imagenes_jpg/Cuadro41_1.jpg"
+        "imagenes_jpg/Cuadro41.jpg"
       ],
       "alt": "Seda balinesa teñida (cristal roto), firmado",
       "adUrl": "https://es.wallapop.com/item/pintura-seda-bali-naturaleza-vibrante-1166797705",
@@ -658,9 +703,7 @@
       "medidas": "116 x 86 cm",
       "precio": 200,
       "imagenes": [
-        "imagenes_jpg/Cuadro42.jpg",
-        "imagenes_jpg/Cuadro42_1.jpg",
-        "imagenes_jpg/Cuadro42_2.jpg"
+        "imagenes_jpg/Cuadro42.jpg"
       ],
       "alt": "Niño - Betún sobre lámina decapado",
       "adUrl": "https://es.wallapop.com/item/dibujo-nino-betun-sobre-lamina-1166798382",
@@ -671,18 +714,18 @@
     {
       "id": "marco1",
       "categoria": "Marco",
-      "titulo": "Marco Dorado Envejecido",
+      "titulo": "Marco: Dorado envejecido",
       "descripcion": "Marco decorativo dorado con pátina de envejecimiento, ideal para cuadros clásicos.",
       "material": "Madera dorada",
-      "medidas": "Varios tamaños disponibles",
-      "precio": 25,
+      "medidas": "67 x 76 cm",
+      "precio": 10,
       "imagenes": [
         "imagenes_jpg/Marco.jpg",
         "imagenes_jpg/Marco_1.jpg"
       ],
       "alt": "Marco dorado envejecido",
       "adUrl": "https://es.wallapop.com/item/marco-dorado-antiguo-1166026612",
-      "reservado": false
+      "reservado": true
     },
     {
       "id": "articulo1",
@@ -768,7 +811,7 @@
       ],
       "alt": "Diana electronica BLH-50CWX con gabinete",
       "adUrl": "https://es.wallapop.com/item/diana-electronica-blh-50cwx-1170005319",
-      "reservado": false
+      "reservado": true
     },
     {
       "id": "articulo7",

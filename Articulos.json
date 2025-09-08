@@ -68,23 +68,7 @@
       "adUrl": "https://es.wallapop.com/item/cuadro-calle-padre-damian-1165950622",
       "reservado": false
     },
-    {
-      "id": "cuadro5",
-      "categoria": "Cuadro",
-      "titulo": "Cuadro 5: Virgen de Fuensalida",
-      "descripcion": "Óleo religioso del siglo XX, representación de la Virgen.",
-      "autor": "N/A",
-      "tecnica": "Óleo",
-      "medidas": "Consultar",
-      "precio": 0,
-      "imagenes": [
-        "imagenes_jpg/Cuadro5.jpg",
-        "imagenes_jpg/Cuadro5_1.jpg"
-      ],
-      "alt": "Virgen de Fuensalida - Óleo religioso",
-      "adUrl": "https://es.wallapop.com/item/cuadro-virgen-fuensalila-oleo-s-xx-1165952653",
-      "reservado": false
-    },
+
     {
       "id": "cuadro6",
       "categoria": "Cuadro",
@@ -391,40 +375,6 @@
       ],
       "alt": "Acuarela de patio sevillano",
       "adUrl": "https://es.wallapop.com/item/acuarela-patio-sevillano-1166133486",
-      "reservado": false
-    },
-    {
-      "id": "cuadro24",
-      "categoria": "Cuadro",
-      "titulo": "Cuadro 24: Acuarela",
-      "descripcion": "Composición en acuarela de temática urbana.",
-      "autor": "J.Carmona",
-      "tecnica": "Acuarela",
-      "medidas": "51 x 43 cm",
-      "precio": 20,
-      "imagenes": [
-        "imagenes_jpg/Cuadro24.jpg",
-        "imagenes_jpg/Cuadro24_1.jpg"
-      ],
-      "alt": "Acuarela de J. Carmona",
-      "adUrl": "https://es.wallapop.com/item/acuarela-urbana-enmarcada-1166133591",
-      "reservado": true
-    },
-    {
-      "id": "cuadro25",
-      "categoria": "Cuadro",
-      "titulo": "Cuadro 25: Óleo sobre lienzo con espátula",
-      "descripcion": "Paisaje campestre realizado con técnica de espátula.",
-      "autor": "N/A",
-      "tecnica": "Óleo sobre lienzo con espátula",
-      "medidas": "Consultar",
-      "precio": 0,
-      "imagenes": [
-        "imagenes_jpg/Cuadro25.jpg",
-        "imagenes_jpg/Cuadro25_1.jpg"
-      ],
-      "alt": "Paisaje campestre con espátula",
-      "adUrl": "https://es.wallapop.com/item/oleo-sobre-lienzo-con-espatula-paisaje-campestre-1166134636",
       "reservado": false
     },
     {

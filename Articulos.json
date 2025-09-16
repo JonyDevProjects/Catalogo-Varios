@@ -15,7 +15,8 @@
       ],
       "alt": "Óleo sobre tabla: Pampa argentina",
       "adUrl": "https://es.wallapop.com/item/cuadro-pintura-al-oleo-1162278763",
-      "reservado": false
+      "reservado": false,
+      "vendido": true
     },
     {
       "id": "cuadro2",
@@ -32,7 +33,8 @@
       ],
       "alt": "Acuarela: Avenida de la Constitución de Sevilla",
       "adUrl": "https://es.wallapop.com/item/acuarela-avenida-constitucion-1165947466",
-      "reservado": true
+      "reservado": true,
+      "vendido": false
     },
     {
       "id": "cuadro3",
@@ -49,7 +51,8 @@
       ],
       "alt": "Óleo sobre lienzo: Paisaje de Cantabria",
       "adUrl": "https://es.wallapop.com/item/oleo-paisaje-montana-colomina-1165949442",
-      "reservado": false
+      "reservado": false,
+      "vendido": false
     },
     {
       "id": "cuadro4",
@@ -66,7 +69,8 @@
       ],
       "alt": "Vista en perspectiva cónica de calle Padre Damián",
       "adUrl": "https://es.wallapop.com/item/cuadro-calle-padre-damian-1165950622",
-      "reservado": false
+      "reservado": false,
+      "vendido": false
     },
 
     {
@@ -85,6 +89,7 @@
       "alt": "Bodegón de flores",
       "adUrl": "https://es.wallapop.com/item/cuadro-oleo-flores-lienzo-1166022294",
       "reservado": false,
+      "vendido": false,
       "precioDes": "150€ (individual) / 200€ (el par)"
     },
     {
@@ -103,6 +108,7 @@
       "alt": "Composición floral",
       "adUrl": "https://es.wallapop.com/item/cuadro-oleo-flores-lienzo-1166022294",
       "reservado": false,
+      "vendido": false,
       "precioDes": "150€ (individual) / 200€ (el par)"
     },
     {
@@ -120,7 +126,8 @@
       ],
       "alt": "Vista de muelle con barcos",
       "adUrl": "https://es.wallapop.com/item/cuadro-oleo-lienzo-muelle-1166023641",
-      "reservado": false
+      "reservado": false,
+      "vendido": true
     },
     {
       "id": "cuadro9",
@@ -137,7 +144,8 @@
       ],
       "alt": "Composición clásica",
       "adUrl": "https://es.wallapop.com/item/oleo-sobre-tabla-paisaje-1166025125",
-      "reservado": false
+      "reservado": false,
+      "vendido": false
     },
     {
       "id": "cuadro10",
@@ -154,7 +162,8 @@
       ],
       "alt": "Óleo sobre tabla de J.M. Liñan",
       "adUrl": "https://es.wallapop.com/item/cuadro-al-oleo-sobre-tabla-1166027599",
-      "reservado": false
+      "reservado": false,
+      "vendido": false
     },
     {
       "id": "cuadro11",
@@ -171,7 +180,8 @@
       ],
       "alt": "Óleo sobre lienzo de A. Marcos",
       "adUrl": "https://es.wallapop.com/item/cuadro-al-oleo-paisaje-campestre-1166029879",
-      "reservado": false
+      "reservado": false,
+      "vendido": false
     },
     {
       "id": "cuadro12",
@@ -188,7 +198,8 @@
       ],
       "alt": "Muelle Desguaces Barcos",
       "adUrl": "https://es.wallapop.com/item/oleo-s-lienzo-muelle-chipiona-1166031850",
-      "reservado": false
+      "reservado": false,
+      "vendido": false
     },
     {
       "id": "cuadro13",
@@ -205,7 +216,8 @@
       ],
       "alt": "Papiro Egipcio enmarcado entre cristales",
       "adUrl": "https://es.wallapop.com/item/papiro-egipcio-enmarcado-1166033689",
-      "reservado": false
+      "reservado": false,
+      "vendido": false
     },
     {
       "id": "cuadro14",
@@ -222,7 +234,8 @@
       ],
       "alt": "Vista de puerto",
       "adUrl": "https://es.wallapop.com/item/cuadro-oleo-sobre-lienzo-vista-de-puerto-1166131679",
-      "reservado": false
+      "reservado": false,
+      "vendido": false
     },
     {
       "id": "cuadro15",
@@ -239,7 +252,8 @@
       ],
       "alt": "Óleo sobre tabla de Liscarinci",
       "adUrl": "https://es.wallapop.com/item/oleo-sobre-tabla-paisaje-campestre-1166131861",
-      "reservado": false
+      "reservado": false,
+      "vendido": false
     },
     {
       "id": "cuadro16",
@@ -256,7 +270,8 @@
       ],
       "alt": "Patio canario",
       "adUrl": "https://es.wallapop.com/item/oleo-sobre-lienzo-patio-tradicional-canario-1166132471",
-      "reservado": false
+      "reservado": false,
+      "vendido": false
     },
     {
       "id": "cuadro17",
@@ -273,7 +288,8 @@
       ],
       "alt": "Mosaico enmarcado",
       "adUrl": "https://es.wallapop.com/item/cuadro-mosaico-enmarcado-artesanal-1166132627",
-      "reservado": false
+      "reservado": false,
+      "vendido": false
     },
     {
       "id": "cuadro18",
@@ -290,7 +306,8 @@
       ],
       "alt": "Punto de cruz enmarcado",
       "adUrl": "https://es.wallapop.com/item/cuadro-punto-de-cruz-alfabeto-1166132703",
-      "reservado": true
+      "reservado": true,
+      "vendido": false
     },
     {
       "id": "cuadro19",
@@ -307,7 +324,8 @@
       ],
       "alt": "Puerto de Sevilla",
       "adUrl": "https://es.wallapop.com/item/cuadro-puerto-sevilla-1166132867",
-      "reservado": false
+      "reservado": false,
+      "vendido": false
     },
     {
       "id": "cuadro20",
@@ -324,7 +342,8 @@
       ],
       "alt": "Anciano Balinés",
       "adUrl": "https://es.wallapop.com/item/oleo-anciano-balines-sobre-hojas-1166133033",
-      "reservado": true
+      "reservado": true,
+      "vendido": false
     },
     {
       "id": "cuadro21",
@@ -341,7 +360,8 @@
       ],
       "alt": "Lámina de grabado: Torre del Oro",
       "adUrl": "https://es.wallapop.com/item/grabado-torre-del-oro-cuadro-1166133148",
-      "reservado": false
+      "reservado": false,
+      "vendido": false
     },
     {
       "id": "cuadro22",
@@ -358,7 +378,8 @@
       ],
       "alt": "Lámina de grabado: El Cachorro cruzando el Puente de Triana",
       "adUrl": "https://es.wallapop.com/item/grabado-puente-triana-1166133397",
-      "reservado": false
+      "reservado": false,
+      "vendido": false
     },
     {
       "id": "cuadro23",
@@ -375,7 +396,8 @@
       ],
       "alt": "Acuarela de patio sevillano",
       "adUrl": "https://es.wallapop.com/item/acuarela-patio-sevillano-1166133486",
-      "reservado": false
+      "reservado": false,
+      "vendido": false
     },
     {
       "id": "cuadro26",
@@ -392,7 +414,8 @@
       ],
       "alt": "Seda balinesa",
       "adUrl": "https://es.wallapop.com/item/cuadro-seda-bali-arte-tradicional-1166134800",
-      "reservado": false
+      "reservado": false,
+      "vendido": false
     },
     {
       "id": "cuadro27",
@@ -409,7 +432,8 @@
       ],
       "alt": "Grabado de lance de toros",
       "adUrl": "https://es.wallapop.com/item/grabado-lance-taurino-1166134903",
-      "reservado": false
+      "reservado": false,
+      "vendido": false
     },
     {
       "id": "cuadro28",
@@ -426,7 +450,8 @@
       ],
       "alt": "Alegoría en seda balinesa",
       "adUrl": "https://es.wallapop.com/item/cuadro-seda-balinesa-arte-asiatico-1166134945",
-      "reservado": false
+      "reservado": false,
+      "vendido": false
     },
     {
       "id": "cuadro29",
@@ -443,7 +468,8 @@
       ],
       "alt": "Mujeres en la playa",
       "adUrl": "https://es.wallapop.com/item/oleo-s-xx-escena-costera-1166135031",
-      "reservado": true
+      "reservado": true,
+      "vendido": false
     },
     {
       "id": "cuadro30",
@@ -460,7 +486,8 @@
       ],
       "alt": "Anciano Balinés",
       "adUrl": "https://es.wallapop.com/item/oleo-anciana-balinesa-1166135255",
-      "reservado": false
+      "reservado": false,
+      "vendido": false
     },
     {
       "id": "cuadro31",
@@ -477,7 +504,8 @@
       ],
       "alt": "Flores de H. Hooter",
       "adUrl": "https://es.wallapop.com/item/cuadro-flores-oleo-sobre-cobre-1166654098",
-      "reservado": false
+      "reservado": false,
+      "vendido": false
     },
     {
       "id": "cuadro32",
@@ -494,7 +522,8 @@
       ],
       "alt": "Paisaje Holandés",
       "adUrl": "https://es.wallapop.com/item/cuadro-oleo-paisaje-holandes-1166655273",
-      "reservado": true
+      "reservado": true,
+      "vendido": false
     },
     {
       "id": "cuadro33",
@@ -511,7 +540,8 @@
       ],
       "alt": "Grabado aguafuerte",
       "adUrl": "https://es.wallapop.com/item/aguafuerte-enmarcado-e-huck-1166656516",
-      "reservado": false
+      "reservado": false,
+      "vendido": false
     },
     {
       "id": "cuadro34",
@@ -528,7 +558,8 @@
       ],
       "alt": "Acuarela de coetero",
       "adUrl": "https://es.wallapop.com/item/acuarela-cohetero-en-pueblo-blanco-1166785553",
-      "reservado": false
+      "reservado": false,
+      "vendido": false
     },
     {
       "id": "cuadro35",
@@ -544,7 +575,8 @@
       ],
       "alt": "Poema del Mar - Lámina enmarcada",
       "adUrl": "https://es.wallapop.com/item/laminas-bajamar-enmarcadas-1166792012",
-      "reservado": false
+      "reservado": false,
+      "vendido": false
     },
     {
       "id": "cuadro36",
@@ -560,7 +592,8 @@
       ],
       "alt": "Poema del Mar - Lámina enmarcada",
       "adUrl": "https://es.wallapop.com/item/laminas-bajamar-enmarcadas-1166792012",
-      "reservado": false
+      "reservado": false,
+      "vendido": false
     },
     {
       "id": "cuadro37",
@@ -576,7 +609,8 @@
       ],
       "alt": "Poema del Mar - Lámina enmarcada",
       "adUrl": "https://es.wallapop.com/item/laminas-bajamar-enmarcadas-1166792012",
-      "reservado": false
+      "reservado": false,
+      "vendido": false
     },
     {
       "id": "cuadro38",
@@ -592,7 +626,8 @@
       ],
       "alt": "Poema del Mar - Lámina enmarcada",
       "adUrl": "https://es.wallapop.com/item/laminas-bajamar-enmarcadas-1166792012",
-      "reservado": false
+      "reservado": false,
+      "vendido": false
     },
     {
       "id": "cuadro39",
@@ -608,7 +643,8 @@
       ],
       "alt": "Seda balinesa teñida, firmado",
       "adUrl": "https://es.wallapop.com/item/pintura-seda-bali-arte-unico-1166795063",
-      "reservado": false
+      "reservado": false,
+      "vendido": false
     },
     {
       "id": "cuadro40",
@@ -625,7 +661,8 @@
       ],
       "alt": "Seda balinesa teñida, firmado",
       "adUrl": "https://es.wallapop.com/item/pintura-seda-balinesa-aves-exoticas-una-llena-1166796916",
-      "reservado": false
+      "reservado": false,
+      "vendido": false
     },
     {
       "id": "cuadro41",
@@ -641,7 +678,8 @@
       ],
       "alt": "Seda balinesa teñida (cristal roto), firmado",
       "adUrl": "https://es.wallapop.com/item/pintura-seda-bali-naturaleza-vibrante-1166797705",
-      "reservado": false
+      "reservado": false,
+      "vendido": false
     },
     {
       "id": "cuadro42",
@@ -657,7 +695,8 @@
       ],
       "alt": "Niño - Betún sobre lámina decapado",
       "adUrl": "https://es.wallapop.com/item/dibujo-nino-betun-sobre-lamina-1166798382",
-      "reservado": false
+      "reservado": false,
+      "vendido": false
     }
   ],
   "articulos": [
@@ -675,7 +714,8 @@
       ],
       "alt": "Marco dorado envejecido",
       "adUrl": "https://es.wallapop.com/item/marco-dorado-antiguo-1166026612",
-      "reservado": true
+      "reservado": true,
+      "vendido": false
     },
     {
       "id": "articulo1",
@@ -693,7 +733,8 @@
       ],
       "alt": "Tocadiscos Portable Vintage",
       "adUrl": "https://es.wallapop.com/item/tocadiscos-vintage-portatil-tepraz-oscar-1170001756",
-      "reservado": false
+      "reservado": false,
+      "vendido": false
     },
     {
       "id": "articulo2",
@@ -710,7 +751,8 @@
       ],
       "alt": "Berrea en bronce masiso",
       "adUrl": "https://es.wallapop.com/item/berrea-en-bronce-masiso-1170003166",
-      "reservado": false
+      "reservado": false,
+      "vendido": false
     },
     {
       "id": "articulo3",
@@ -728,7 +770,8 @@
       ],
       "alt": "Tapises de tela enmarcados",
       "adUrl": "https://es.wallapop.com/item/tapiz-enmarcado-escena-romantica-1170003985",
-      "reservado": false
+      "reservado": false,
+      "vendido": false
     },
     {
       "id": "articulo5",
@@ -745,7 +788,8 @@
       ],
       "alt": "Purera de madera con humidor",
       "adUrl": "https://es.wallapop.com/item/humidor-de-madera-caja-para-puros-1170004742",
-      "reservado": false
+      "reservado": false,
+      "vendido": false
     },
     {
       "id": "articulo6",
@@ -761,7 +805,8 @@
       ],
       "alt": "Diana electronica BLH-50CWX con gabinete",
       "adUrl": "https://es.wallapop.com/item/diana-electronica-blh-50cwx-1170005319",
-      "reservado": true
+      "reservado": true,
+      "vendido": false
     },
     {
       "id": "articulo7",
@@ -778,7 +823,8 @@
       ],
       "alt": "Corbatero/Cituronera",
       "adUrl": "https://es.wallapop.com/item/colgador-de-corbatas-y-cinturones-1170005767",
-      "reservado": false
+      "reservado": false,
+      "vendido": false
     },
     {
       "id": "articulo8",
@@ -797,7 +843,8 @@
       ],
       "alt": "Figura de cerámica 1",
       "adUrl": "",
-      "reservado": false
+      "reservado": false,
+      "vendido": false
     },
     {
       "id": "articulo9",
@@ -815,7 +862,8 @@
       ],
       "alt": "Figura de cerámica 2",
       "adUrl": "",
-      "reservado": false
+      "reservado": false,
+      "vendido": false
     },
     {
       "id": "articulo10",
@@ -832,7 +880,8 @@
       ],
       "alt": "Figura de cerámica 3",
       "adUrl": "https://es.wallapop.com/item/figura-lladro-mujer-beige-ceramica-1170007523",
-      "reservado": false
+      "reservado": false,
+      "vendido": false
     },
     {
       "id": "articulo11",
@@ -849,7 +898,8 @@
       ],
       "alt": "Figura de cerámica 4",
       "adUrl": "https://es.wallapop.com/item/figura-religiosa-lladro-monja-orando-1170008725",
-      "reservado": false
+      "reservado": false,
+      "vendido": false
     },
     {
       "id": "articulo12",
@@ -865,7 +915,8 @@
       ],
       "alt": "Figura de cerámica 5",
       "adUrl": "https://es.wallapop.com/item/ventilador-taurus-sobremesa-1170009388",
-      "reservado": false
+      "reservado": false,
+      "vendido": false
     },
     {
       "id": "articulo13",
@@ -881,7 +932,8 @@
       ],
       "alt": "Figura de cerámica 6",
       "adUrl": "https://es.wallapop.com/item/ajedrez-chino-artesanal-1170011281",
-      "reservado": false
+      "reservado": false,
+      "vendido": false
     },
     {
       "id": "articulo14",
@@ -897,7 +949,8 @@
       ],
       "alt": "Figura de cerámica 8",
       "adUrl": "https://es.wallapop.com/item/pletina-casete-philips-n2537-50-1170014918",
-      "reservado": true
+      "reservado": true,
+      "vendido": false
     },
     {
       "id": "articulo15",
@@ -912,7 +965,8 @@
       ],
       "alt": "Figura de cerámica 7",
       "adUrl": "https://es.wallapop.com/item/almohadilla-masaje-sillon-negra-1170013419",
-      "reservado": false
+      "reservado": false,
+      "vendido": false
     },
     {
       "id": "articulo16",
@@ -929,7 +983,8 @@
       ],
       "alt": "Figura de cerámica 9",
       "adUrl": "https://es.wallapop.com/item/maleta-samsonite-morada-1170017532",
-      "reservado": false
+      "reservado": false,
+      "vendido": false
     },
     {
       "id": "articulo17",
@@ -945,7 +1000,8 @@
       ],
       "alt": "Figura de cerámica 11",
       "adUrl": "https://es.wallapop.com/item/humidificador-ultrasonico-artrom-1170020044",
-      "reservado": false
+      "reservado": false,
+      "vendido": false
     },
     {
       "id": "articulo18",
@@ -960,7 +1016,319 @@
       ],
       "alt": "Figura de cerámica 10",
       "adUrl": "https://es.wallapop.com/item/vasos-arcoroc-isla-cristaleria-1170019415",
-      "reservado": false
+      "reservado": false,
+      "vendido": false
+    },
+    {
+      "id": "articulo19",
+      "categoria": "Calzado",
+      "titulo": "Sandalias tacon Antonio Parriego",
+      "descripcion": "Sandalias de tacón de la marca Antonio Parriego, talla 37",
+      "material": "Cuero",
+      "medidas": "25x10x10 cm",
+      "precio": 15,
+      "imagenes": [
+        "imagenes_jpg/Articulo19.jpg",
+        "imagenes_jpg/Articulo19_1.jpg",
+        "imagenes_jpg/Articulo19_2.jpg",
+        "imagenes_jpg/Articulo19_3.jpg",
+        "imagenes_jpg/Articulo19_4.jpg"
+      ],
+      "alt": "Sandalias tacon Antonio Parriego",
+      "adUrl": "https://es.wallapop.com/item/sandalias-tacon-antonio-parriego-1170020813",
+      "reservado": false,
+      "vendido": false
+    },
+    {
+      "id": "articulo20",
+      "categoria": "Calzado",
+      "titulo": "Sandalias vintage de plataforma",
+      "descripcion": "Sandalias vintage de plataforma, talla 37.",
+      "material": "Piel",
+      "medidas": "N/A",
+      "precio": 20,
+      "imagenes": [
+        "imagenes_jpg/Articulo20.jpg",
+        "imagenes_jpg/Articulo20_1.jpg",
+        "imagenes_jpg/Articulo20_2.jpg",
+        "imagenes_jpg/Articulo20_3.jpg",
+        "imagenes_jpg/Articulo20_4.jpg"
+      ],
+      "alt": "Abrigo de piel auténtica",
+      "adUrl": "https://es.wallapop.com/item/abrigo-de-piel-autentica-1170021500",
+      "reservado": false,
+      "vendido": false
+    },
+    {
+      "id": "articulo21",
+      "categoria": "Calzado",
+      "titulo": "Botas de piel auténtica, marca Veletto",
+      "descripcion": "Botas de piel auténtica, talla 36.",
+      "material": "Piel",
+      "medidas": "N/A",
+      "precio": 10,
+      "imagenes": [
+        "imagenes_jpg/Articulo21.jpg",
+        "imagenes_jpg/Articulo21_1.jpg",
+        "imagenes_jpg/Articulo21_2.jpg",
+        "imagenes_jpg/Articulo21_3.jpg"
+      ],
+      "alt": "Botas de piel auténtica, marca Veletto",
+      "adUrl": "https://es.wallapop.com/item/botas-de-piel-autentica-veletto-1170021500",
+      "reservado": false,
+      "vendido": false
+    }
+    ,{
+      "id": "articulo22",
+      "categoria": "Calzado",
+      "titulo": "Zapatillas de golf de piel auténtica",
+      "descripcion": "Zapatillas de golf de piel auténtica, talla 36.",
+      "material": "Piel",
+      "medidas": "N/A",
+      "precio": 10,
+      "imagenes": [
+        "imagenes_jpg/Articulo22.jpg",
+        "imagenes_jpg/Articulo22_1.jpg",
+        "imagenes_jpg/Articulo22_2.jpg",
+        "imagenes_jpg/Articulo22_3.jpg"
+      ],
+      "alt": "Zapatillas de golf de piel auténtica",
+      "adUrl": "https://es.wallapop.com/item/abrigo-de-piel-autentica-1170021500",
+      "reservado": false,
+      "vendido": false
+    },
+    {
+      "id": "articulo23",
+      "categoria": "Calzado",
+      "titulo": "Zapatillas de golf de piel auténtica, marca FootJoy",
+      "descripcion": "Zapatillas de golf de piel auténtica a estrenar, talla 37.",
+      "material": "Piel",
+      "medidas": "N/A",
+      "precio": 30,
+      "imagenes": [
+        "imagenes_jpg/Articulo23.jpg",
+        "imagenes_jpg/Articulo23_1.jpg",
+        "imagenes_jpg/Articulo23_2.jpg",
+        "imagenes_jpg/Articulo23_3.jpg"
+      ],
+      "alt": "Zapatillas de golf de piel auténtica",
+      "adUrl": "https://es.wallapop.com/item/zapatillas-de-golf-de-piel-autentica-1170021500",
+      "reservado": false,
+      "vendido": false
+    },
+    {
+      "id": "articulo24",
+      "categoria": "Calzado",
+      "titulo": "Zapatillas de golf de piel auténtica, marca FootJoy",
+      "descripcion": "Zapatillas de golf de piel auténtica usadas, talla 37.",
+      "material": "Piel",
+      "medidas": "N/A", 
+      "precio": 10,
+      "imagenes": [
+        "imagenes_jpg/Articulo24.jpg",
+        "imagenes_jpg/Articulo24_1.jpg",
+        "imagenes_jpg/Articulo24_2.jpg",
+        "imagenes_jpg/Articulo24_3.jpg"
+      ],
+      "alt": "Zapatillas de golf de piel auténtica usados, marca FootJoy",
+      "adUrl": "https://es.wallapop.com/item/botas-de-piel-autentica-veletto-1170021500",
+      "reservado": false,
+      "vendido": false
+    },
+    {
+      "id": "articulo25",
+      "categoria": "Calzado",
+      "titulo": "Zapatos de senderismo, marca Quechua",
+      "descripcion": "Zapatos de senderismo Quechua, talla 38.",
+      "material": "Piel",
+      "medidas": "N/A", 
+      "precio": 10,
+      "imagenes": [
+        "imagenes_jpg/Articulo25.jpg",
+        "imagenes_jpg/Articulo25_1.jpg",
+        "imagenes_jpg/Articulo25_2.jpg",
+        "imagenes_jpg/Articulo25_3.jpg"
+      ],
+      "alt": "Zapatos de senderismo, marca Quechua",
+      "adUrl": "https://es.wallapop.com/item/botas-de-piel-autentica-veletto-1170021500",
+      "reservado": false,
+      "vendido": false
+    },
+    {
+      "id": "articulo26",
+      "categoria": "Calzado",
+      "titulo": "Zapatos de caminar, marca MBT",
+      "descripcion": "Zapatos de caminar, talla 38.",
+      "material": "Piel",
+      "medidas": "N/A", 
+      "precio": 10,
+      "imagenes": [
+        "imagenes_jpg/Articulo26.jpg",
+        "imagenes_jpg/Articulo26_1.jpg",
+        "imagenes_jpg/Articulo26_2.jpg",
+        "imagenes_jpg/Articulo26_3.jpg"
+      ],
+      "alt": "Zapatos de caminar, marca MBT",
+      "adUrl": "https://es.wallapop.com/item/botas-de-piel-autentica-veletto-1170021500",
+      "reservado": false,
+      "vendido": false
+    },
+    {
+      "id": "articulo27",
+      "categoria": "Hogar",
+      "titulo": "Juego de espejos decorativos, estilo vintage",
+      "descripcion": "Juego de espejos decorativos, estilo vintage. Adquiridos en Ceuta.",
+      "material": "Metal y cristal",
+      "medidas": "N/A", 
+      "precio": 5,
+      "imagenes": [
+        "imagenes_jpg/Articulo27.jpg",
+        "imagenes_jpg/Articulo27_1.jpg",
+        "imagenes_jpg/Articulo27_2.jpg",
+        "imagenes_jpg/Articulo27_3.jpg"
+      ],
+      "alt": "Juego de espejos decorativos, estilo vintage",
+      "adUrl": "https://es.wallapop.com/item/botas-de-piel-autentica-veletto-1170021500",
+      "reservado": false,
+      "vendido": false
+    },
+    {
+      "id": "articulo28",
+      "categoria": "Hogar",
+      "titulo": "Litografias de monumentos conocidos de España",
+      "descripcion": "Litografías de monumentos conocidos de España. Enmarcadas.",
+      "material": "Papel y cristal",
+      "medidas": "N/A", 
+      "precio": 5,
+      "imagenes": [
+        "imagenes_jpg/Articulo28.jpg",
+        "imagenes_jpg/Articulo28_1.jpg",
+        "imagenes_jpg/Articulo28_2.jpg",
+        "imagenes_jpg/Articulo28_3.jpg"
+      ],
+      "alt": "Litografias de monumentos conocidos de España",
+      "adUrl": "https://es.wallapop.com/item/botas-de-piel-autentica-veletto-1170021500",
+      "reservado": false,
+      "vendido": false
+    },
+    {
+      "id": "articulo29",
+      "categoria": "Coleccionismo",
+      "titulo": "Cerámica Valenciana con certificado",
+      "descripcion": "Cerámica Valenciana con certificado de autenticidad. 3 unidades disponibles. 10€ cada una.",
+      "material": "Cerámica",
+      "medidas": "N/A", 
+      "precio": 10,
+      "imagenes": [
+        "imagenes_jpg/Articulo29.jpg",
+        "imagenes_jpg/Articulo29_1.jpg"
+      ],
+      "alt": "Cuadro decorativo de madera tallada",
+      "adUrl": "https://es.wallapop.com/item/botas-de-piel-autentica-veletto-1170021500",
+      "reservado": false,
+      "vendido": false
+    },
+    {
+      "id": "articulo30",
+      "categoria": "Hogar",
+      "titulo": "Olla tamaño grande, marca Magefesa",
+      "descripcion": "Olla tamaño grande, marca Magefesa. Ideal para guisos.",
+      "material": "Acero inoxidable",
+      "medidas": "N/A", 
+      "precio": 20,
+      "imagenes": [
+        "imagenes_jpg/Articulo30.jpg",
+        "imagenes_jpg/Articulo30_1.jpg"
+      ],
+      "alt": "Olla tamaño grande, marca Magefesa",
+      "adUrl": "https://es.wallapop.com/item/botas-de-piel-autentica-veletto-1170021500",
+      "reservado": false,
+      "vendido": false
+    },
+    {
+      "id": "articulo31",
+      "categoria": "Hogar",
+      "titulo": "Juego de cuchillos de cocina",
+      "descripcion": "Juego de cuchillos de cocina de alta calidad. Incluye maletin de transporte. Falta un cuchillo.",
+      "material": "Acero inoxidable y madera",
+      "medidas": "N/A", 
+      "precio": 20,
+      "imagenes": [
+        "imagenes_jpg/Articulo31.jpg",
+        "imagenes_jpg/Articulo31_1.jpg"
+      ],
+      "alt": "Juego de cuchillos de cocina",
+      "adUrl": "https://es.wallapop.com/item/botas-de-piel-autentica-veletto-1170021500",
+      "reservado": false,
+      "vendido": false
+    },
+    {
+      "id": "articulo32",
+      "categoria": "Hogar",
+      "titulo": "Maleta de viaje",
+      "descripcion": "Maleta de viaje rígida, color beige.",
+      "material": "Aluminio",
+      "medidas": "N/A", 
+      "precio": 10,
+      "imagenes": [
+        "imagenes_jpg/Articulo32.jpg",
+        "imagenes_jpg/Articulo32_1.jpg"
+      ],
+      "alt": "Maleta de viaje rígida, color beige.",
+      "adUrl": "https://es.wallapop.com/item/botas-de-piel-autentica-veletto-1170021500",
+      "reservado": false,
+      "vendido": false
+    },
+    {
+      "id": "articulo33",
+      "categoria": "Complementos",
+      "titulo": "Bolso tipo clutch decortivo, estilo elegante y festivo",
+      "descripcion": "Bolso tipo clutch decorativo, estilo elegante y festivo.",
+      "material": "Textil",
+      "medidas": "N/A", 
+      "precio": 10,
+      "imagenes": [
+        "imagenes_jpg/Articulo33.jpg",
+        "imagenes_jpg/Articulo33_1.jpg"
+      ],
+      "alt": "Bolso tipo clutch decorativo, estilo elegante y festivo.",
+      "adUrl": "https://es.wallapop.com/item/botas-de-piel-autentica-veletto-1170021500",
+      "reservado": false,
+      "vendido": false
+    },
+    {
+      "id": "articulo34",
+      "categoria": "Complementos",
+      "titulo": "Bolso tipo clutch de estilo elegante y clasico.",
+      "descripcion": "Bolso tipo clutch de estilo elegante y clasico.",
+      "material": "Textil",
+      "medidas": "N/A", 
+      "precio": 5,
+      "imagenes": [
+        "imagenes_jpg/Articulo34.jpg",
+        "imagenes_jpg/Articulo34_1.jpg"
+      ],
+      "alt": "Bolso tipo clutch de estilo elegante y clasico.",
+      "adUrl": "https://es.wallapop.com/item/botas-de-piel-autentica-veletto-1170021500",
+      "reservado": false,
+      "vendido": false
+    },
+    {
+      "id": "articulo35",
+      "categoria": "Complementos",
+      "titulo": "Bolso tipo clutch de estilo decorativo y colorido.",
+      "descripcion": "Bolso tipo clutch de estilo decorativo y colorido.",
+      "material": "Textil",
+      "medidas": "N/A", 
+      "precio": 5,
+      "imagenes": [
+        "imagenes_jpg/Articulo35.jpg",
+        "imagenes_jpg/Articulo35_1.jpg"
+      ],
+      "alt": "Bolso tipo clutch de estilo decorativo y colorido.",
+      "adUrl": "https://es.wallapop.com/item/botas-de-piel-autentica-veletto-1170021500",
+      "reservado": false,
+      "vendido": false
     }
   ]
 }

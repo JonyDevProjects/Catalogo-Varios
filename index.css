@@ -272,7 +272,7 @@ body {
     /* Ocultar filtros en impresión */
     #filters { display: none !important; }
     /* Ocultar marcas de estado en impresión */
-    .status-indicator, .reserved-badge { display: none !important; }
+    .status-indicator, .reserved-badge, .sold-badge { display: none !important; }
 }
 
 /* Estilos para marcas de estado de productos */
@@ -300,6 +300,24 @@ body {
     color: white;
 }
 
+.status-indicator.sold {
+    background: #7c3aed; /* violeta-600 */
+    color: white;
+    font-weight: 700;
+    animation: pulseGlow 2s infinite;
+    border: 2px solid #a855f7; /* violeta-500 */
+}
+
+/* Animación para destacar productos vendidos */
+@keyframes pulseGlow {
+    0%, 100% {
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 0 8px rgba(124, 58, 237, 0.3);
+    }
+    50% {
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 0 16px rgba(124, 58, 237, 0.6);
+    }
+}
+
 /* Marca adicional más visible para productos reservados */
 .reserved-badge {
     position: absolute;
@@ -315,6 +333,36 @@ body {
     letter-spacing: 0.5px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
     z-index: 10;
+}
+
+/* Marca especial para productos vendidos - más destacada */
+.sold-badge {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: linear-gradient(135deg, #7c3aed, #a855f7); /* gradiente violeta */
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 12px rgba(124, 58, 237, 0.4);
+    z-index: 10;
+    border: 2px solid #ffffff;
+    animation: soldPulse 3s infinite;
+}
+
+@keyframes soldPulse {
+    0%, 100% {
+        transform: scale(1);
+        box-shadow: 0 4px 12px rgba(124, 58, 237, 0.4);
+    }
+    50% {
+        transform: scale(1.05);
+        box-shadow: 0 6px 20px rgba(124, 58, 237, 0.6);
+    }
 }
 
 /* Efecto visual sutil para productos reservados */
@@ -333,4 +381,35 @@ body {
     z-index: 1;
     border-radius: 8px;
     pointer-events: none;
+}
+
+/* Efecto visual distintivo para productos vendidos */
+.product-card.sold {
+    border: 2px solid #a855f7;
+    box-shadow: 0 8px 25px rgba(124, 58, 237, 0.15);
+}
+
+.product-card.sold::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(124, 58, 237, 0.08), rgba(168, 85, 247, 0.05));
+    z-index: 1;
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+/* Efecto de opacidad reducida para productos vendidos */
+.product-card.sold img {
+    opacity: 0.75;
+    filter: grayscale(10%);
+}
+
+.product-card.sold:hover img {
+    opacity: 0.9;
+    filter: grayscale(0%);
+    transition: all 0.3s ease;
 }

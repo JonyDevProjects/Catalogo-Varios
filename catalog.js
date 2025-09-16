@@ -93,11 +93,12 @@ class CatalogRenderer {
         const priceText = item.precioDes || (item.precio > 0 ? `${item.precio}€` : 'Consultar');
         const imagesData = item.imagenes.join(',');
         const reservedAttr = item.reservado ? 'data-reserved="true"' : '';
+        const soldAttr = item.vendido ? 'data-sold="true"' : '';
         const adUrlAttr = item.adUrl ? `data-ad-url="${item.adUrl}"` : '';
         
         if (section === 'cuadros') {
             return `
-                <div class="bg-white rounded-lg shadow-md overflow-hidden" ${reservedAttr} ${adUrlAttr}>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden" ${reservedAttr} ${soldAttr} ${adUrlAttr}>
                     <img src="${item.imagenes[0]}" 
                         alt="${item.alt}" 
                         class="product-image" 
@@ -117,7 +118,7 @@ class CatalogRenderer {
             `;
         } else {
             return `
-                <div class="bg-white rounded-lg shadow-md overflow-hidden" ${reservedAttr} ${adUrlAttr}>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden" ${reservedAttr} ${soldAttr} ${adUrlAttr}>
                     <img src="${item.imagenes[0]}" 
                         alt="${item.alt}" 
                         class="product-image" 
@@ -445,17 +446,33 @@ class CatalogRenderer {
             if (card.querySelector('.status-indicator')) return;
 
             const isReserved = card.hasAttribute('data-reserved') && card.getAttribute('data-reserved') === 'true';
+            const isSold = card.hasAttribute('data-sold') && card.getAttribute('data-sold') === 'true';
             
-            if (isReserved) {
-                card.classList.add('product-card', 'reserved');
+            // Determinar el estado prioritario (vendido > reservado > disponible)
+            let status, statusText, statusClass;
+            
+            if (isSold) {
+                status = 'sold';
+                statusText = 'VENDIDO';
+                statusClass = 'product-card sold';
+            } else if (isReserved) {
+                status = 'reserved';
+                statusText = 'RESERVADO';
+                statusClass = 'product-card reserved';
             } else {
-                card.classList.add('product-card', 'available');
-                card.classList.remove('reserved');
+                status = 'available';
+                statusText = 'DISPONIBLE';
+                statusClass = 'product-card available';
             }
+            
+            // Aplicar clases CSS
+            card.className = card.className.replace(/product-card\s*(sold|reserved|available)?/g, '').trim();
+            card.classList.add(...statusClass.split(' '));
 
+            // Crear indicador de estado
             const statusIndicator = document.createElement('div');
-            statusIndicator.className = `status-indicator ${isReserved ? 'reserved' : 'available'}`;
-            statusIndicator.textContent = isReserved ? 'RESERVADO' : 'DISPONIBLE';
+            statusIndicator.className = `status-indicator ${status}`;
+            statusIndicator.textContent = statusText;
             card.appendChild(statusIndicator);
         });
     }

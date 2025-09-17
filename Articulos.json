@@ -16,7 +16,7 @@
       "alt": "Óleo sobre tabla: Pampa argentina",
       "adUrl": "https://es.wallapop.com/item/cuadro-pintura-al-oleo-1162278763",
       "reservado": false,
-      "vendido": true
+      "vendido": false
     },
     {
       "id": "cuadro2",
@@ -34,7 +34,7 @@
       "alt": "Acuarela: Avenida de la Constitución de Sevilla",
       "adUrl": "https://es.wallapop.com/item/acuarela-avenida-constitucion-1165947466",
       "reservado": true,
-      "vendido": false
+      "vendido": true
     },
     {
       "id": "cuadro3",
@@ -70,7 +70,7 @@
       "alt": "Vista en perspectiva cónica de calle Padre Damián",
       "adUrl": "https://es.wallapop.com/item/cuadro-calle-padre-damian-1165950622",
       "reservado": false,
-      "vendido": false
+      "vendido": true
     },
 
     {
@@ -127,7 +127,7 @@
       "alt": "Vista de muelle con barcos",
       "adUrl": "https://es.wallapop.com/item/cuadro-oleo-lienzo-muelle-1166023641",
       "reservado": false,
-      "vendido": true
+      "vendido": false
     },
     {
       "id": "cuadro9",
@@ -307,7 +307,7 @@
       "alt": "Punto de cruz enmarcado",
       "adUrl": "https://es.wallapop.com/item/cuadro-punto-de-cruz-alfabeto-1166132703",
       "reservado": true,
-      "vendido": false
+      "vendido": true
     },
     {
       "id": "cuadro19",
@@ -342,7 +342,7 @@
       ],
       "alt": "Anciano Balinés",
       "adUrl": "https://es.wallapop.com/item/oleo-anciano-balines-sobre-hojas-1166133033",
-      "reservado": true,
+      "reservado": false,
       "vendido": false
     },
     {
@@ -361,7 +361,7 @@
       "alt": "Lámina de grabado: Torre del Oro",
       "adUrl": "https://es.wallapop.com/item/grabado-torre-del-oro-cuadro-1166133148",
       "reservado": false,
-      "vendido": false
+      "vendido": true
     },
     {
       "id": "cuadro22",
@@ -469,7 +469,7 @@
       "alt": "Mujeres en la playa",
       "adUrl": "https://es.wallapop.com/item/oleo-s-xx-escena-costera-1166135031",
       "reservado": true,
-      "vendido": false
+      "vendido": true
     },
     {
       "id": "cuadro30",
@@ -523,7 +523,7 @@
       "alt": "Paisaje Holandés",
       "adUrl": "https://es.wallapop.com/item/cuadro-oleo-paisaje-holandes-1166655273",
       "reservado": true,
-      "vendido": false
+      "vendido": true
     },
     {
       "id": "cuadro33",
@@ -540,24 +540,6 @@
       ],
       "alt": "Grabado aguafuerte",
       "adUrl": "https://es.wallapop.com/item/aguafuerte-enmarcado-e-huck-1166656516",
-      "reservado": false,
-      "vendido": false
-    },
-    {
-      "id": "cuadro34",
-      "categoria": "Cuadro",
-      "titulo": "Cuadro 34: Acuarela de coetero",
-      "descripcion": "Figura popular con cohetes en acuarela.",
-      "autor": "E.Zurra",
-      "tecnica": "Acuarela",
-      "medidas": "N/A",
-      "precio": 50,
-      "imagenes": [
-        "imagenes_jpg/Cuadro34.jpg",
-        "imagenes_jpg/Cuadro34_1.jpg"
-      ],
-      "alt": "Acuarela de coetero",
-      "adUrl": "https://es.wallapop.com/item/acuarela-cohetero-en-pueblo-blanco-1166785553",
       "reservado": false,
       "vendido": false
     },
@@ -715,7 +697,7 @@
       "alt": "Marco dorado envejecido",
       "adUrl": "https://es.wallapop.com/item/marco-dorado-antiguo-1166026612",
       "reservado": true,
-      "vendido": false
+      "vendido": true
     },
     {
       "id": "articulo1",
@@ -950,7 +932,7 @@
       "alt": "Figura de cerámica 8",
       "adUrl": "https://es.wallapop.com/item/pletina-casete-philips-n2537-50-1170014918",
       "reservado": true,
-      "vendido": false
+      "vendido": true
     },
     {
       "id": "articulo15",

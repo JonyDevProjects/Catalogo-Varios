@@ -287,7 +287,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.5px;
     z-index: 10;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 4px rgba(31, 31, 32, 0.2);
 }
 
 .status-indicator.reserved {
@@ -301,20 +301,20 @@ body {
 }
 
 .status-indicator.sold {
-    background: #7c3aed; /* violeta-600 */
+    background: #323133; /* violeta-600 */
     color: white;
     font-weight: 700;
     animation: pulseGlow 2s infinite;
-    border: 2px solid #a855f7; /* violeta-500 */
+    border: 2px solid #504f52; /* violeta-500 */
 }
 
 /* Animación para destacar productos vendidos */
 @keyframes pulseGlow {
     0%, 100% {
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 0 8px rgba(124, 58, 237, 0.3);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 0 8px rgba(31, 29, 33, 0.3);
     }
     50% {
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 0 16px rgba(124, 58, 237, 0.6);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 0 16px rgba(18, 18, 20, 0.6);
     }
 }
 
@@ -340,7 +340,7 @@ body {
     position: absolute;
     top: 12px;
     right: 12px;
-    background: linear-gradient(135deg, #7c3aed, #a855f7); /* gradiente violeta */
+    background: linear-gradient(135deg, #2a3037, #29242e); /* gradiente violeta */
     color: white;
     padding: 6px 12px;
     border-radius: 6px;
@@ -385,8 +385,8 @@ body {
 
 /* Efecto visual distintivo para productos vendidos */
 .product-card.sold {
-    border: 2px solid #a855f7;
-    box-shadow: 0 8px 25px rgba(124, 58, 237, 0.15);
+    border: 2px solid #a3a1a6;
+    box-shadow: 0 8px 25px rgba(122, 109, 143, 0.15);
 }
 
 .product-card.sold::before {

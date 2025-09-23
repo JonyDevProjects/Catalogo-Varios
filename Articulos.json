@@ -721,9 +721,9 @@
     {
       "id": "articulo2",
       "categoria": "Antigüedades",
-      "titulo": "Berrea en bronce masiso",
+      "titulo": "Berrea en bronce macizo",
       "descripcion": "Esta pieza transmite serenidad y fuerza, ideal para coleccionistas de arte animalístico o amantes de la escultura clásica.",
-      "material": "Bronce masiso",
+      "material": "Bronce macizo",
       "medidas": "60x50x50 cm",
       "precio": 1500,
       "imagenes": [
@@ -731,7 +731,7 @@
         "imagenes_jpg/Articulo2_1.png",
         "imagenes_jpg/Articulo2_2.png"
       ],
-      "alt": "Berrea en bronce masiso",
+      "alt": "Berrea en bronce macizo",
       "adUrl": "https://es.wallapop.com/item/berrea-en-bronce-masiso-1170003166",
       "reservado": false,
       "vendido": false

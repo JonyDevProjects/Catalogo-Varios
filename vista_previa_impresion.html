@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vista Previa de Impresión - Catálogo</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        /* Forzar estilos de impresión para preview */
+        body { 
+            background: white !important; 
+            padding: 20px !important;
+            font-family: Arial, sans-serif !important;
+        }
+        
+        /* Aplicar estilos de impresión al preview */
+        .status-indicator {
+            display: block !important;
+            position: static !important;
+            background: transparent !important;
+            color: #000 !important;
+            border: 2px solid #000 !important;
+            padding: 4px 8px !important;
+            margin: 8px 0 4px 0 !important;
+            font-size: 11px !important;
+            font-weight: bold !important;
+            text-align: center !important;
+            border-radius: 4px !important;
+            box-shadow: none !important;
+            text-transform: uppercase !important;
+            letter-spacing: 0.5px !important;
+        }
+        
+        .status-indicator.sold {
+            border-color: #000 !important;
+            background: #f0f0f0 !important;
+        }
+        
+        .status-indicator.reserved {
+            border-color: #666 !important;
+            background: #f8f8f8 !important;
+        }
+        
+        .status-indicator.available {
+            border-color: #999 !important;
+            background: #ffffff !important;
+        }
+        
+        .product-card {
+            border: 1px solid #ddd !important;
+            margin-bottom: 16px !important;
+            padding: 12px !important;
+            border-radius: 8px !important;
+            background: white !important;
+        }
+        
+        .product-card.sold {
+            border: 2px solid #000 !important;
+            background: #f9f9f9 !important;
+        }
+        
+        .product-card.reserved {
+            border: 2px solid #666 !important;
+            background: #fbfbfb !important;
+        }
+        
+        main.grid {
+            display: grid !important;
+            grid-template-columns: 1fr 1fr !important;
+            gap: 12pt !important;
+        }
+        
+        .fixed-header {
+            position: static !important;
+            background: #ffffff !important;
+            border-bottom: 1px solid #e5e7eb !important;
+            padding: 10px 0 !important;
+        }
+        
+        .gallery-controls, .gallery-thumbs, .gallery-dots, .lightbox-overlay, .ad-actions, #filters { 
+            display: none !important; 
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; color: #000; margin-bottom: 20px;">Vista Previa de Impresión - Catálogo</h1>
+    <p style="text-align: center; color: #666; margin-bottom: 30px;">Esta página muestra cómo lucirán los indicadores de estado al imprimir</p>
+    
+    <!-- Ejemplo de productos con diferentes estados -->
+    <main class="grid">
+        <!-- Producto VENDIDO -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden product-card sold" data-sold="true">
+            <img src="imagenes_jpg/Cuadro1.jpg" alt="Cuadro vendido" class="product-image" style="width: 100%; height: 200px; object-fit: cover;">
+            <div class="p-4">
+                <h2 class="text-xl font-bold mb-2">Cuadro 1: Óleo sobre tabla</h2>
+                <p class="text-gray-700 text-sm mb-2">Paisaje de la Pampa argentina en tonos cálidos.</p>
+                <ul class="text-sm text-gray-500">
+                    <li><strong>Autor:</strong> Liscarinci</li>
+                    <li><strong>Técnica:</strong> Óleo sobre tabla</li>
+                    <li><strong>Medidas:</strong> 59 x 49 cm</li>
+                    <li><strong>Precio:</strong> 50€</li>
+                </ul>
+            </div>
+            <div class="status-indicator sold">VENDIDO</div>
+        </div>
+        
+        <!-- Producto RESERVADO -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden product-card reserved" data-reserved="true">
+            <img src="imagenes_jpg/Cuadro2.jpg" alt="Cuadro reservado" class="product-image" style="width: 100%; height: 200px; object-fit: cover;">
+            <div class="p-4">
+                <h2 class="text-xl font-bold mb-2">Cuadro 2: Acuarela</h2>
+                <p class="text-gray-700 text-sm mb-2">Escena urbana sevillana con edificios emblemáticos.</p>
+                <ul class="text-sm text-gray-500">
+                    <li><strong>Autor:</strong> Manuel Matey Bande</li>
+                    <li><strong>Técnica:</strong> Acuarela</li>
+                    <li><strong>Medidas:</strong> 50.5 x 42.5 cm</li>
+                    <li><strong>Precio:</strong> 20€</li>
+                </ul>
+            </div>
+            <div class="status-indicator reserved">RESERVADO</div>
+        </div>
+        
+        <!-- Producto DISPONIBLE -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden product-card available">
+            <img src="imagenes_jpg/Cuadro3.jpg" alt="Cuadro disponible" class="product-image" style="width: 100%; height: 200px; object-fit: cover;">
+            <div class="p-4">
+                <h2 class="text-xl font-bold mb-2">Cuadro 3: Óleo sobre lienzo</h2>
+                <p class="text-gray-700 text-sm mb-2">Paisaje natural de Cantabria con tonos verdes y azules.</p>
+                <ul class="text-sm text-gray-500">
+                    <li><strong>Autor:</strong> Colomina</li>
+                    <li><strong>Técnica:</strong> Óleo sobre lienzo</li>
+                    <li><strong>Medidas:</strong> 51.7 x 60 cm</li>
+                    <li><strong>Precio:</strong> 30€</li>
+                </ul>
+            </div>
+            <div class="status-indicator available">DISPONIBLE</div>
+        </div>
+        
+        <!-- Artículo VENDIDO -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden product-card sold" data-sold="true">
+            <img src="imagenes_jpg/Articulo1.jpg" alt="Artículo vendido" class="product-image" style="width: 100%; height: 200px; object-fit: cover;">
+            <div class="p-4">
+                <h2 class="text-xl font-bold mb-2">Tocadiscos Portable Vintage</h2>
+                <p class="text-gray-700 text-sm mb-2">Tocadiscos portátil de los años 70 en perfecto estado de funcionamiento.</p>
+                <ul class="text-sm text-gray-500">
+                    <li><strong>Categoría:</strong> Coleccionismo</li>
+                    <li><strong>Material:</strong> Piel y plástico</li>
+                    <li><strong>Medidas:</strong> 35 x 28 x 12 cm</li>
+                    <li><strong>Precio:</strong> 50€</li>
+                </ul>
+            </div>
+            <div class="status-indicator sold">VENDIDO</div>
+        </div>
+    </main>
+    
+    <div style="margin-top: 40px; padding: 20px; border: 1px solid #ddd; background: #f9f9f9;">
+        <h3 style="margin: 0 0 10px 0; color: #000;">📋 Instrucciones para Imprimir:</h3>
+        <ol style="margin: 0; padding-left: 20px; font-size: 12px; line-height: 1.4;">
+            <li>Usa <strong>Ctrl+P</strong> (Windows) o <strong>Cmd+P</strong> (Mac) para imprimir</li>
+            <li>Selecciona <strong>"Más opciones"</strong> en el diálogo de impresión</li>
+            <li>Marca <strong>"Gráficos de fondo"</strong> o <strong>"Background graphics"</strong></li>
+            <li>Los indicadores de estado ahora aparecerán en la impresión</li>
+        </ol>
+    </div>
+</body>
+</html>

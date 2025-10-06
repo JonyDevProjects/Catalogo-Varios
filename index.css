@@ -258,10 +258,62 @@ body {
     main > div {
         break-inside: avoid;
         page-break-inside: avoid;
+        border: 1px solid #ddd !important;
+        margin-bottom: 16px !important;
+        padding: 12px !important;
+        border-radius: 8px !important;
+    }
+    
+    /* Estilos específicos para tarjetas con diferentes estados en impresión */
+    .product-card.sold {
+        border: 2px solid #000 !important;
+        background: #f9f9f9 !important;
+    }
+    
+    .product-card.reserved {
+        border: 2px solid #666 !important;
+        background: #fbfbfb !important;
+    }
+    
+    .product-card.available {
+        border: 1px solid #ccc !important;
+        background: #ffffff !important;
     }
 
-    /* Imágenes a ancho completo dentro de su tarjeta */
-    .product-image { max-width: 100%; height: auto; }
+    /* Imágenes optimizadas para impresión */
+    .product-image { 
+        max-width: 100%; 
+        height: auto; 
+        border: 1px solid #ddd !important;
+        border-radius: 4px !important;
+        margin-bottom: 8px !important;
+    }
+    
+    /* Títulos y texto optimizados para impresión */
+    .product-card h2 {
+        font-size: 14px !important;
+        margin: 8px 0 6px 0 !important;
+        line-height: 1.3 !important;
+        color: #000 !important;
+    }
+    
+    .product-card p {
+        font-size: 11px !important;
+        line-height: 1.4 !important;
+        margin: 4px 0 !important;
+        color: #333 !important;
+    }
+    
+    .product-card ul {
+        font-size: 10px !important;
+        line-height: 1.3 !important;
+        margin: 6px 0 !important;
+        color: #444 !important;
+    }
+    
+    .product-card li {
+        margin: 2px 0 !important;
+    }
     /* Ocultar controles de la galería en impresión */
     .gallery-controls, .gallery-thumbs, .gallery-dots, .lightbox-overlay, .ad-actions { display: none !important; }
 
@@ -271,8 +323,69 @@ body {
     }
     /* Ocultar filtros en impresión */
     #filters { display: none !important; }
-    /* Ocultar marcas de estado en impresión */
-    .status-indicator, .reserved-badge, .sold-badge { display: none !important; }
+    
+    /* Estilos optimizados para indicadores de estado en impresión */
+    .status-indicator {
+        display: block !important;
+        position: static !important;
+        background: transparent !important;
+        color: #000 !important;
+        border: 2px solid #000 !important;
+        padding: 4px 8px !important;
+        margin: 8px 0 4px 0 !important;
+        font-size: 11px !important;
+        font-weight: bold !important;
+        text-align: center !important;
+        border-radius: 4px !important;
+        box-shadow: none !important;
+        text-transform: uppercase !important;
+        letter-spacing: 0.5px !important;
+    }
+    
+    /* Estilos específicos para cada estado en impresión */
+    .status-indicator.sold {
+        border-color: #000 !important;
+        background: #f0f0f0 !important;
+        animation: none !important;
+    }
+    
+    .status-indicator.reserved {
+        border-color: #666 !important;
+        background: #f8f8f8 !important;
+    }
+    
+    .status-indicator.available {
+        border-color: #999 !important;
+        background: #ffffff !important;
+    }
+    
+    /* Ocultar badges adicionales para evitar duplicación */
+    .reserved-badge, .sold-badge { display: none !important; }
+    
+    /* Destacar precio en impresión */
+    .product-card li strong {
+        font-weight: bold !important;
+        color: #000 !important;
+    }
+    
+    /* Estilo especial para el precio */
+    .product-card li:last-child {
+        font-weight: bold !important;
+        font-size: 12px !important;
+        margin-top: 6px !important;
+        padding-top: 4px !important;
+        border-top: 1px solid #eee !important;
+    }
+    
+    /* Ajustar efectos visuales para productos vendidos en impresión */
+    .product-card.sold img {
+        opacity: 0.8 !important;
+        filter: grayscale(20%) !important;
+    }
+    
+    .product-card.sold::before {
+        display: none !important;
+    }
 }
 
 /* Estilos para marcas de estado de productos */

@@ -6,7 +6,83 @@
 /
 ├── Articulos.json          # 🎯 Base de datos principal (objetos estructurados)
 ├── catalog.js              # 🚀 Motor del catálogo (renderizado dinámico)
-├── index.html              # 🎨 Interfaz de usuario (simplificada)
+├── i## 📊 Sistema de Reportes Profesionales
+
+### Generación Automática de Informes HTML
+
+El sistema incluye un generador de reportes profesionales que analiza los productos vendidos y genera informes empresariales optimizados para visualización e impresión.
+
+#### Script de Generación: `generar_resumen.py`
+
+```python
+# Ejecutar para generar informe de ventas
+python3 generar_resumen.py
+```
+
+**Características del Reporte:**
+- ✅ **Análisis automático** de productos vendidos por categorías
+- ✅ **Diseño profesional** con paleta sobria (#2c3e50, #34495e)
+- ✅ **Resumen ejecutivo** con estadísticas clave
+- ✅ **Tablas detalladas** por tipo de producto
+- ✅ **Cálculos automáticos** de totales y promedios
+- ✅ **Optimización para impresión** A4 con estilos específicos
+
+#### Archivo Generado: `resumen_vendidos.html`
+
+**Contenido del Informe:**
+1. **Resumen Ejecutivo Dashboard**
+   - Total de productos vendidos
+   - Valor total de ventas
+   - Precio promedio por unidad
+
+2. **Análisis por Categorías**
+   - Cuadros vendidos (cantidad y valor)
+   - Artículos varios vendidos (cantidad y valor)
+
+3. **Tablas Detalladas**
+   - Información completa de cada producto vendido
+   - Precios, medidas, materiales y estados
+
+4. **Sección de Firma Profesional**
+   - Fecha de generación automática
+   - Espacio para firma del responsable
+
+### 🖨️ Optimización para Impresión
+
+**Características de Impresión:**
+- **Formato A4** con márgenes apropiados (2cm todos los lados)
+- **Tipografía optimizada** (Segoe UI, 11pt base)
+- **Colores en escala de grises** para impresión económica
+- **Elementos ocultos** innecesarios (botones, enlaces)
+- **Prevención de saltos** de página en elementos críticos
+- **Headers y footers** automáticos con numeración
+
+**Acceso al Informe:**
+```bash
+# Servidor local para visualización
+python3 -m http.server 8003
+# Abrir: http://localhost:8003/resumen_vendidos.html
+```
+
+### 📈 Estadísticas Actuales del Catálogo
+
+**Estado del inventario (ejemplo):**
+- 📦 **Total productos:** 60+ items
+- 🎨 **Cuadros:** 40+ obras de arte
+- 🔧 **Artículos varios:** 20+ items coleccionables
+- 🟣 **Vendidos:** 8 productos (125€ facturados)
+- 🔴 **Reservados:** Variable según demanda
+- 🟢 **Disponibles:** Mayoría del catálogo
+
+## 🎉 Resultado
+
+El catálogo ahora es:
+- **Más fácil de mantener**: Solo editar JSON
+- **Más escalable**: Propiedades flexibles
+- **Más organizado**: Separación clara de responsabilidades
+- **Igual de funcional**: Toda la experiencia de usuario preservada
+- **Profesionalmente reportado**: Informes empresariales automáticos
+- **Optimizado para impresión**: Documentos listos para negocioml              # 🎨 Interfaz de usuario (simplificada)
 ├── index.css               # 💄 Estilos visuales
 ├── index.js                # ⚠️  Obsoleto (solo compatibilidad)
 ├── imagenes_jpg/           # 🖼️  Imágenes del catálogo
